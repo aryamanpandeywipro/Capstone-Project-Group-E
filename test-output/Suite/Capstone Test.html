@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Capstone Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 02 15:18:09 IST 2026</td>
+<td>Started on:</td><td>Thu Jul 02 16:11:05 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92804 ms)</td>
+<tr><td>Total time:</td><td>88 seconds (88992 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search fails for any keyword", "Search functionality on BStackDemo"</td>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search fails for any keyword", "Navbar Links Verification"</td>
 <td><div><pre>java.lang.AssertionError: BUG: Search functionality does not filter products based on keyword entered
-	at org.junit.Assert.fail(Assert.java:89)
-	at stepDef.searchSteps.verifySearchResultsNotDisplayed(searchSteps.java:37)
-	at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/C_search.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace766722027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace766722027'><pre>java.lang.AssertionError: BUG: Search functionality does not filter products based on keyword entered
-	at org.junit.Assert.fail(Assert.java:89)
-	at stepDef.searchSteps.verifySearchResultsNotDisplayed(searchSteps.java:37)
-	at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/C_search.feature:7)
+	at stepDef.NavbarSteps.verifySearchResultsNotDisplayed(NavbarSteps.java:83)
+	at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/B_Navbar.feature:21)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1280977839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1280977839'><pre>java.lang.AssertionError: BUG: Search functionality does not filter products based on keyword entered
+	at org.testng.Assert.fail(Assert.java:97)
+	at stepDef.NavbarSteps.verifySearchResultsNotDisplayed(NavbarSteps.java:83)
+	at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/B_Navbar.feature:21)
 </pre></div></td>
-<td>15</td>
+<td>16</td>
 <td>Runner.Runner@f5ac9e4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -99,17 +98,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing"</td>
 <td></td>
-<td>32</td>
+<td>24</td>
 <td>Runner.Runner@f5ac9e4</td></tr>
 <tr>
 <td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing"</td>
 <td></td>
-<td>19</td>
+<td>15</td>
 <td>Runner.Runner@f5ac9e4</td></tr>
 <tr>
 <td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Navbar Links", "Navbar Links Verification"</td>
 <td></td>
-<td>21</td>
+<td>20</td>
+<td>Runner.Runner@f5ac9e4</td></tr>
+<tr>
+<td title='Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Log Out", "Navbar Links Verification"</td>
+<td></td>
+<td>10</td>
 <td>Runner.Runner@f5ac9e4</td></tr>
 </table><p>
 </body>
