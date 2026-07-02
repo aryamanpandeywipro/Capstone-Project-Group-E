@@ -30,3 +30,24 @@
 2026-07-02 15:19:36,726 INFO  stepDef.searchSteps - Entering keyword in search bar: iphone
 2026-07-02 15:19:36,872 INFO  stepDef.searchSteps - Clicking on Search icon
 2026-07-02 15:19:37,360 ERROR stepDef.searchSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-02 15:36:57,990 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-02 15:36:58,051 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-02 15:36:58,500 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-02 15:36:58,502 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-02 15:36:58,553 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-02 15:36:58,823 INFO  stepDef.SignInSteps - Selecting password
+2026-07-02 15:36:59,019 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-02 15:36:59,163 INFO  stepDef.NavbarLinks - Verifying navbar logo visibility
+2026-07-02 15:36:59,385 INFO  stepDef.NavbarLinks - Navbar logo is displayed successfully
+2026-07-02 15:36:59,388 INFO  stepDef.NavbarLinks - Verifying Offers link
+2026-07-02 15:36:59,431 INFO  stepDef.NavbarLinks - Clicking on Offers link
+2026-07-02 15:37:01,606 INFO  stepDef.NavbarLinks - Current URL: https://bstackdemo.com/offers
+2026-07-02 15:37:01,661 INFO  stepDef.NavbarLinks - Returned back to Home Page
+2026-07-02 15:37:01,664 INFO  stepDef.NavbarLinks - Verifying Orders link
+2026-07-02 15:37:01,722 INFO  stepDef.NavbarLinks - Clicking on Orders link
+2026-07-02 15:37:03,961 INFO  stepDef.NavbarLinks - Current URL: https://bstackdemo.com/orders
+2026-07-02 15:37:04,023 INFO  stepDef.NavbarLinks - Returned back to Home Page
+2026-07-02 15:37:04,031 INFO  stepDef.NavbarLinks - Verifying Favourites link
+2026-07-02 15:37:04,109 INFO  stepDef.NavbarLinks - Clicking on Favourites link
+2026-07-02 15:37:06,421 INFO  stepDef.NavbarLinks - Current URL: https://bstackdemo.com/favourites
+2026-07-02 15:37:06,545 INFO  stepDef.NavbarLinks - Returned back to Home Page
