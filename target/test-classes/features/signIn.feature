@@ -2,12 +2,17 @@ Feature: BrowserStackDemo Automation Testing
 
 Background: Given User is on BStackDemo HomePage
 
-Scenario: Navigating to SignIn Page
+Scenario Outline: Navigating to SignIn Page and Signing In
 When User clicks on "Sign In" link
 Then User is redirected to Sign In Page
-
-Scenario: Signing In with Valid Credentials
-When User selects "demouser" username from dropdown
-And User selects "testingisfun99" password from dropdown
+When User selects "<username>" username from dropdown
+And User selects "<password>" password from dropdown
 And User clicks on "LOG IN" button
-Then User is Signed In successfully and redirected to HomePage where username is visible in Navbar
+Then User SignIn Status is "<signInStatus>"
+
+Examples:
+|username|password|signInStatus|
+|demouser|testingisfun99|SignedIn|
+|locked_user|testingisfun99|Locked|
+
+
