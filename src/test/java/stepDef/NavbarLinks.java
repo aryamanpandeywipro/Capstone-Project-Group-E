@@ -1,72 +1,61 @@
 package stepDef;
-
+ 
 import Hooks.BStackDemoHooks;
 import PageObjectsModels.NavBar;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+ 
 public class NavbarLinks {
-
+	private static final Logger logger = LogManager.getLogger(NavbarLinks.class);
+ 
     NavBar nb = new NavBar(BStackDemoHooks.driver);
-
+ 
     @Then("User should see navbar logo")
     public void navbarLogo() {
+    	logger.info("Verifying navbar logo visibility");
         Assert.assertTrue(nb.logo().isDisplayed());
-        System.out.println("Navbar Logo is displayed successfully");
+        logger.info("Navbar logo is displayed successfully");
     }
-
+ 
     @And("User should see Offers link")
     public void offersLink() throws InterruptedException {
-
+    	logger.info("Verifying Offers link");
         Assert.assertTrue(nb.offers().isDisplayed());
-        System.out.println("Offers Link is displayed");
-
+        logger.info("Clicking on Offers link");
         nb.offers().click();
-        System.out.println("Clicked on Offers Link");
-
         Thread.sleep(2000);
-
-        System.out.println("Current URL : "
-                + BStackDemoHooks.driver.getCurrentUrl());
-
+        logger.info("Current URL: " +BStackDemoHooks.driver.getCurrentUrl());
         BStackDemoHooks.driver.navigate().back();
-        System.out.println("Returned back to Home Page");
+        logger.info("Returned back to Home Page");
     }
-
+ 
     @And("User should see Orders link")
     public void ordersLink() throws InterruptedException {
-
+    	logger.info("Verifying Orders link");
+ 
         Assert.assertTrue(nb.orders().isDisplayed());
-        System.out.println("Orders Link is displayed");
-
+        logger.info("Clicking on Orders link");
         nb.orders().click();
-        System.out.println("Clicked on Orders Link");
-
         Thread.sleep(2000);
-
-        System.out.println("Current URL : "
-                + BStackDemoHooks.driver.getCurrentUrl());
-
+        logger.info("Current URL: " +BStackDemoHooks.driver.getCurrentUrl());
         BStackDemoHooks.driver.navigate().back();
-        System.out.println("Returned back to Home Page");
+        logger.info("Returned back to Home Page");
     }
-
+ 
     @And("User should see Favourites link")
     public void favouritesLink() throws InterruptedException {
-
+    	logger.info("Verifying Favourites link");
+ 
         Assert.assertTrue(nb.favourites().isDisplayed());
-        System.out.println("Favourites Link is displayed");
-
+        logger.info("Clicking on Favourites link");
         nb.favourites().click();
-        System.out.println("Clicked on Favourites Link");
-
         Thread.sleep(2000);
-
-        System.out.println("Current URL : "
-                + BStackDemoHooks.driver.getCurrentUrl());
-
+        logger.info("Current URL: " +BStackDemoHooks.driver.getCurrentUrl());
         BStackDemoHooks.driver.navigate().back();
-        System.out.println("Returned back to Home Page");
+        logger.info("Returned back to Home Page");
     }
 }
+ 
