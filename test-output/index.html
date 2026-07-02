@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\AR20695753\AppData\Local\Temp\testng-eclipse--1763562178\testng-customsuite.xml</span>
+                    <span>C:\Users\AR20695753\AppData\Local\Temp\testng-eclipse-1794719968\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify search fails for any keyword&quot;, &quot;Search functionality on BStackDemo&quot;)">runScenario("Verify search fails for any keyword", "Search functionality on BStackDemo")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigating to SignIn Page&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">runScenario("Navigating to SignIn Page", "BrowserStackDemo Automation Testing")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigating to SignIn Page and Signing In&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Navbar Links&quot;, &quot;Navbar Links Verification&quot;)">runScenario("Verify Navbar Links", "Navbar Links Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Runner.Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigating to SignIn Page and Signing In&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -117,6 +141,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify search fails for any keyword&quot;, &quot;Search functionality on BStackDemo&quot;)">
+                  </a> <!-- runScenario("Verify search fails for any keyword", "Search functionality on BStackDemo") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify search fails for any keyword", "Search functionality on BStackDemo")</span>
+                  <div class="stack-trace">java.lang.AssertionError: BUG: Search functionality does not filter products based on keyword entered
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepDef.searchSteps.verifySearchResultsNotDisplayed(searchSteps.java:46)
+	at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/search.feature:7)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -125,10 +173,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Navigating to SignIn Page&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">
-                  </a> <!-- runScenario("Navigating to SignIn Page", "BrowserStackDemo Automation Testing") -->
+                  <a name="runScenario(&quot;Navigating to SignIn Page and Signing In&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">
+                  </a> <!-- runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Navigating to SignIn Page", "BrowserStackDemo Automation Testing")</span>
+                  <span class="parameters">("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Navbar Links&quot;, &quot;Navbar Links Verification&quot;)">
+                  </a> <!-- runScenario("Verify Navbar Links", "Navbar Links Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Navbar Links", "Navbar Links Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigating to SignIn Page and Signing In&quot;, &quot;BrowserStackDemo Automation Testing&quot;)">
+                  </a> <!-- runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -138,7 +206,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\AR20695753\AppData\Local\Temp\testng-eclipse--1763562178\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\AR20695753\AppData\Local\Temp\testng-eclipse-1794719968\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,16 +263,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Runner.Runner')
-data.setCell(0, 3, 10152);
+data.setCell(0, 3, 30780);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'Runner.Runner')
+data.setCell(1, 3, 19702);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'Runner.Runner')
+data.setCell(2, 3, 19468);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'Runner.Runner')
+data.setCell(3, 3, 15429);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -232,16 +312,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Runner.Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@11a00961)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5b3a7ef5)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Navigating to SignIn Page", "BrowserStackDemo Automation Testing")</span>
-                <span class="method-start">688 ms</span>
+                <span class="method-name">runScenario("Verify Navbar Links", "Navbar Links Verification")</span>
+                <span class="method-start">1840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify search fails for any keyword", "Search functionality on BStackDemo")</span>
+                <span class="method-start">32626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</span>
+                <span class="method-start">48058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Navigating to SignIn Page and Signing In", "BrowserStackDemo Automation Testing")</span>
+                <span class="method-start">67527 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">10845 ms</span>
+                <span class="method-start">87230 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
