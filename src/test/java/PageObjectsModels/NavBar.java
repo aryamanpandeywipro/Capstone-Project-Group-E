@@ -19,6 +19,10 @@ public class NavBar {
     By usernameDisplay= By.className("username");
     By logout= By.xpath("//*[@id='signin']");
 
+    public NavBar(WebDriver driver){
+        this.driver=driver;
+    }
+
     public WebElement logo(){
         return driver.findElement(logo);
     }
