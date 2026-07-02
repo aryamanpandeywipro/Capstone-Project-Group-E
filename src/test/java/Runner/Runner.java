@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue={"stepDef", "Hooks"}, monochrome=true,
-		plugin= {"pretty","html:target/BStackDemo.html"}
+		plugin= {"pretty","html:target/CapstoneReport.html"}
 		)
 public class Runner extends AbstractTestNGCucumberTests{
 
