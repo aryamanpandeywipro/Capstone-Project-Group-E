@@ -28,9 +28,6 @@ public class SignInPage {
 	public WebElement loginButton() {
 		return loginButton;
 	}
-	
-	
-	
-	
+
 
 }
