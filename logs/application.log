@@ -159,3 +159,117 @@
 2026-07-02 16:37:23,712 INFO  stepDef.SignInSteps - Selecting password
 2026-07-02 16:37:24,073 INFO  stepDef.SignInSteps - Clicking on Login button
 2026-07-02 16:37:24,548 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 14:09:22,613 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:09:22,649 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:09:23,026 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:09:23,028 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:09:23,060 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:09:23,242 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:09:23,377 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:09:34,211 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:09:34,228 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:09:34,512 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:09:34,514 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:09:34,524 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:09:34,635 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:09:34,752 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:09:42,914 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:09:42,929 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:09:43,229 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:09:43,231 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:09:43,240 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:09:43,357 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:09:43,462 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:09:51,623 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:09:51,633 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:09:51,865 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:09:51,866 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:09:51,873 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:09:51,961 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:09:52,057 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:32:01,037 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:32:01,076 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:32:01,674 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:32:01,676 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:32:01,709 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:32:01,926 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:32:02,056 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:32:13,856 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:32:13,868 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:32:14,486 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:32:14,487 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:32:14,494 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:32:14,578 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:32:14,661 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:32:23,651 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:32:23,664 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:32:23,926 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:32:23,928 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:32:23,937 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:32:24,028 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:32:24,115 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 14:32:32,881 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 14:32:32,893 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 14:32:33,156 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 14:32:33,157 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 14:32:33,164 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 14:32:33,238 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 14:32:33,312 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:18:09,047 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:18:09,085 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:18:10,670 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:18:10,673 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:18:10,740 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:18:10,998 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:18:11,193 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:18:22,574 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:18:26,171 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:18:26,832 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:18:26,834 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:18:26,844 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:18:26,965 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:18:27,091 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:18:45,284 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:18:45,295 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:18:46,698 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:18:46,700 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:18:46,713 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:18:46,862 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:18:46,996 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:19:05,645 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:19:05,655 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:19:05,936 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:19:05,937 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:19:05,946 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:19:06,053 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:19:06,153 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:39:08,787 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:39:08,819 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:39:09,144 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:39:09,147 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:39:09,178 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:39:09,331 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:39:09,489 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:39:09,597 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-03 15:39:11,950 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-03 15:39:11,952 INFO  stepDef.VendorSteps - Verifying Products For Vendor : Apple
+2026-07-03 15:39:11,956 INFO  stepDef.VendorSteps - Products displayed successfully for Vendor : Apple
+2026-07-03 15:39:25,424 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:39:25,436 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:39:25,726 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:39:25,728 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:39:25,737 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:39:25,856 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:39:25,966 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:39:26,043 INFO  stepDef.VendorSteps - Applying Vendor Filter : Apple
+2026-07-03 15:39:26,044 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-03 15:39:28,277 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-03 15:39:28,279 INFO  stepDef.VendorSteps - Removing Vendor Filter : Apple
+2026-07-03 15:39:28,279 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-03 15:39:30,337 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-03 15:39:30,339 INFO  stepDef.VendorSteps - Verifying All Products Are Displayed
+2026-07-03 15:39:30,339 INFO  stepDef.VendorSteps - All Products Displayed Successfully
+2026-07-03 15:39:41,202 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:39:41,218 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:40:11,854 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:40:11,867 INFO  stepDef.SignInSteps - Clicking on Sign In link

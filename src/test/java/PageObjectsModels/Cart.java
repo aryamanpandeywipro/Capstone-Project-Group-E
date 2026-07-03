@@ -8,54 +8,60 @@ public class Cart {
 
     WebDriver driver;
 
-    @FindBy (xpath = "//span[contains(@class,'bag')]")
+    // Cart icon
+    @FindBy(xpath = "//span[contains(@class,'bag')]")
     WebElement cartButton;
 
-    @FindBy (xpath = "//div[contains(@class,'float-cart__close-btn')]")
+    // Close cart button
+    @FindBy(xpath = "//div[contains(@class,'float-cart__close-btn')]")
     WebElement closeCart;
 
-    @FindBy (xpath = "//*[contains(@class,'shelf-item__del')]")
+    // Remove product
+    @FindBy(xpath = "//*[contains(@class,'shelf-item__del')]")
     WebElement removeItem;
 
-    @FindBy (xpath = "(//button[contains(@class,'change-product-button')])[2]")
+    // Increase quantity
+    @FindBy(xpath = "(//button[contains(@class,'change-product-button')])[2]")
     WebElement increaseQuantity;
 
-    @FindBy (xpath = "(//button[contains(@class,'change-product-button')])[1]")
+    // Decrease quantity
+    @FindBy(xpath = "(//button[contains(@class,'change-product-button')])[1]")
     WebElement decreaseQuantity;
 
-    @FindBy (className = "buy-btn")
+    // Checkout button
+    @FindBy(className = "buy-btn")
     WebElement checkout;
 
     public Cart(WebDriver driver){
-        this.driver=driver;
+        this.driver = driver;
     }
 
-    // Returns cart button element
+    // Return cart icon
     public WebElement cartButton(){
         return cartButton;
     }
 
-    // Returns close cart element
+    // Return close cart button
     public WebElement closeCart(){
         return closeCart;
     }
 
-    // Returns remove item from cart element
+    // Return remove item button
     public WebElement removeItem(){
         return removeItem;
     }
 
-    // Returns increase quantity element
+    // Return increase quantity button
     public WebElement increaseQuantity(){
         return increaseQuantity;
     }
 
-    // Returns decrease quantity element
+    // Return decrease quantity button
     public WebElement decreaseQuantity(){
         return decreaseQuantity;
     }
 
-    // Returns checkout element
+    // Return checkout button
     public WebElement checkout(){
         return checkout;
     }
