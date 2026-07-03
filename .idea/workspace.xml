@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf30ad16-24a0-4b91-8bdf-fad618a0b897" name="Changes" comment="Adding comments">
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/NavBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/NavBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CapstoneReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CapstoneReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Capstone/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Project/Capstone/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hooks/BStackDemoHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hooks/BStackDemoHooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/NavBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/NavBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Vendor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Vendor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/NavbarSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/NavbarSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/SignInSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/SignInSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ScreenShot.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ankur786&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aryamanpandeywipro/Capstone-Project-Group-E.git&quot;,
+    &quot;accountId&quot;: &quot;2a3c9955-5897-49f4-aded-d1e69a845412&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3FyZMCic3GNMmdY4DS1tXsZP6Yi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ankur&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf30ad16-24a0-4b91-8bdf-fad618a0b897" name="Changes" comment="NavbarLink code StepDef" />
+      <created>1783049222392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783049222392</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding comments">
+      <option name="closed" value="true" />
+      <created>1783057041983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783057041983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NavbarLink code StepDef" />
+    <MESSAGE value="Adding comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding comments" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
