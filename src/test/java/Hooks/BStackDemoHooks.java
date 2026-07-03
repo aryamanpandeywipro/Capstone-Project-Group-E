@@ -58,7 +58,7 @@ public class BStackDemoHooks {
 	     
 	            System.out.println("Screenshot saved at: " + path);
 	        }
-	     
+	    	Thread.sleep(2000);
 	        driver.quit();
 	    }
 
