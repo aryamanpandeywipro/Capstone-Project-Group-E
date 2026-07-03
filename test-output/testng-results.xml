@@ -1,59 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-02T16:35:40 IST" name="Suite" finished-at="2026-07-02T16:37:28 IST" duration-ms="108056">
+  <suite started-at="2026-07-03T15:33:18 IST" name="Default suite" finished-at="2026-07-03T15:34:11 IST" duration-ms="53138">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-07-02T16:35:40 IST" name="Capstone Test" finished-at="2026-07-02T16:37:28 IST" duration-ms="108056">
+    <test started-at="2026-07-03T15:33:18 IST" name="Default test" finished-at="2026-07-03T15:34:11 IST" duration-ms="53138">
       <class name="Runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:35:40 IST" name="setUpClass" finished-at="2026-07-02T16:35:42 IST" duration-ms="2297" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-03T15:33:18 IST" name="setUpClass" finished-at="2026-07-03T15:33:20 IST" duration-ms="1579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ca610a0]]>
+                <![CDATA[org.testng.TestRunner@46a8c2b4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:35:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T16:36:13 IST" duration-ms="31300" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Navigating to SignIn Page and Signing In"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["BrowserStackDemo Automation Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:36:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T16:36:29 IST" duration-ms="16026" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Navigating to SignIn Page and Signing In"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["BrowserStackDemo Automation Testing"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:36:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T16:36:52 IST" duration-ms="22427" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-03T15:33:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-03T15:33:48 IST" duration-ms="28351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:36:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T16:37:13 IST" duration-ms="21371" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-03T15:33:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-03T15:34:02 IST" duration-ms="13512" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -89,15 +57,15 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: BUG: Search functionality does not filter products based on keyword entered
 at org.testng.Assert.fail(Assert.java:97)
-at stepDef.NavbarSteps.verifySearchResultsNotDisplayed(NavbarSteps.java:83)
-at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclipse-workspace/Capstone/src/test/java/features/B_Navbar.feature:21)
+at stepDef.NavbarSteps.verifySearchResultsNotDisplayed(NavbarSteps.java:122)
+at ✽.Search results should not be displayed(file:///C:/Users/CH20695935/eclipse-workspace/Capstone-Project-Group-E/Capstone-Project-Group-E/src/test/java/features/B_Navbar.feature:21)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:37:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-02T16:37:28 IST" duration-ms="14450" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-03T15:34:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-03T15:34:11 IST" duration-ms="9588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,11 +81,11 @@ at ✽.Search results should not be displayed(file:///C:/Users/AR20695753/eclips
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-02T16:37:28 IST" name="tearDownClass" finished-at="2026-07-02T16:37:28 IST" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner@f5ac9e4]" started-at="2026-07-03T15:34:11 IST" name="tearDownClass" finished-at="2026-07-03T15:34:11 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.Runner -->
-    </test> <!-- Capstone Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

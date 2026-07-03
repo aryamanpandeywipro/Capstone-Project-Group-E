@@ -159,3 +159,511 @@
 2026-07-02 16:37:23,712 INFO  stepDef.SignInSteps - Selecting password
 2026-07-02 16:37:24,073 INFO  stepDef.SignInSteps - Clicking on Login button
 2026-07-02 16:37:24,548 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:05:57,463 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:05:57,502 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:05:57,873 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:05:57,876 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:05:57,922 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:05:58,132 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:05:58,277 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:05:58,397 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:05:58,632 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:05:58,634 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:05:58,676 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:06:00,831 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:06:00,873 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:06:00,876 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:06:00,927 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:06:03,053 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:06:03,106 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:06:03,111 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:06:03,167 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:06:05,386 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:06:05,448 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:06:16,797 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:06:16,834 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:06:17,383 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:06:17,387 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:06:17,403 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:06:17,629 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:06:17,821 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:06:18,071 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:06:19,114 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:06:19,328 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:06:20,331 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:06:30,058 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:06:30,111 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:06:30,977 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:06:30,981 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:06:31,024 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:06:31,712 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:06:32,264 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:06:33,129 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:13:38,672 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:13:38,735 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:13:39,163 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:13:39,169 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:13:39,233 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:13:39,484 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:13:39,708 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:13:39,875 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:13:40,119 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:13:40,124 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:13:40,175 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:13:42,375 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:13:42,415 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:13:42,419 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:13:42,450 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:13:44,578 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:13:44,624 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:13:44,629 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:13:44,674 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:13:46,908 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:13:46,966 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:13:57,349 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:13:57,374 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:13:57,807 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:13:57,812 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:13:57,827 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:13:58,032 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:13:58,237 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:13:58,400 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:13:58,950 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:13:59,419 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:14:00,099 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:14:12,192 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:14:12,226 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:14:12,642 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:14:12,646 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:14:12,662 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:14:12,863 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:14:13,032 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:14:13,212 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:17:16,453 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:17:16,512 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:17:16,982 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:17:16,987 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:17:17,053 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:17:17,354 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:17:17,655 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:17:17,882 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:17:18,182 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:17:18,187 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:17:18,267 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:17:20,536 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:17:20,601 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:17:20,605 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:17:20,658 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:17:22,874 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:17:22,937 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:17:22,943 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:17:23,099 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:17:25,469 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:17:25,538 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:17:37,819 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:17:37,850 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:17:38,255 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:17:38,261 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:17:38,280 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:17:38,514 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:17:38,682 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:17:38,799 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:17:39,155 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:17:39,355 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:17:40,744 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:17:49,461 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:17:49,524 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:17:49,987 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:17:49,992 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:17:50,011 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:17:50,227 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:17:50,437 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:17:50,602 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:24:30,925 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:24:47,466 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:24:47,631 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:24:48,151 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:24:48,158 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:24:48,227 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:24:48,513 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:24:48,762 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:24:51,991 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-03 15:24:52,021 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:24:56,020 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:24:57,163 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:25:04,461 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:25:04,465 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:25:04,887 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:25:04,891 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:25:04,925 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-03 15:25:05,191 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:25:05,430 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:25:08,570 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-03 15:25:08,632 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:25:10,711 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:25:11,176 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:25:18,125 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:25:18,131 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:25:18,151 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:25:18,467 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:25:18,470 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:25:18,483 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:25:18,662 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:25:18,813 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:25:18,954 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:25:19,206 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:25:19,209 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:25:19,248 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:25:21,407 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:25:21,480 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:25:21,483 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:25:21,525 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:25:23,696 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:25:23,721 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:25:23,723 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:25:23,749 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:25:25,839 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:25:25,889 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:25:25,903 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
+2026-07-03 15:25:28,021 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:25:29,036 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:25:36,256 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:25:36,258 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:25:36,285 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:25:36,631 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:25:36,633 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:25:36,650 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:25:36,843 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:25:37,001 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:25:37,167 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:25:37,578 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:25:37,885 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:25:38,457 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:25:38,570 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
+2026-07-03 15:25:39,232 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783072538918.png
+2026-07-03 15:25:41,349 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:25:43,459 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:25:53,297 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:25:53,299 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:25:53,316 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:25:53,654 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:25:53,654 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:25:53,671 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:25:53,817 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:25:53,970 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:25:54,072 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:25:54,460 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
+2026-07-03 15:25:56,568 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:25:57,086 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:03,242 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:03,248 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:03,269 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:26:03,612 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:26:03,620 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:26:03,639 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:26:03,856 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:26:04,032 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:26:04,182 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
+2026-07-03 15:26:06,282 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:26:06,696 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:15,510 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:15,511 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:15,522 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:26:15,891 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:26:15,891 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:26:15,913 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:26:16,113 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:26:16,279 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:26:16,445 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
+2026-07-03 15:26:18,551 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:26:18,962 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:25,618 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:25,618 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:25,640 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:26:25,920 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:26:25,925 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:26:25,937 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:26:26,060 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:26:26,206 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:26:26,299 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-03 15:26:28,361 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:26:28,787 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:37,891 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:37,895 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:37,912 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:26:38,296 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:26:38,299 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:26:38,322 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:26:38,553 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:26:38,815 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:26:39,044 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-03 15:26:41,207 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:26:42,399 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:49,549 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:49,551 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:49,579 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Add a single product to cart
+2026-07-03 15:26:49,600 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:26:56,703 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:26:56,703 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:26:56,719 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:26:57,096 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:26:57,100 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:26:57,116 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:26:57,298 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:26:57,460 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:26:57,593 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
+2026-07-03 15:26:59,666 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:26:59,930 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:27:06,028 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:27:06,028 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:27:06,060 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:27:06,444 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:27:06,448 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:27:06,465 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:27:06,712 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:27:06,926 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:27:07,078 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart
+2026-07-03 15:27:09,191 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:27:39,077 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:27:49,177 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:27:49,300 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:27:49,608 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:27:49,616 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:27:49,652 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:27:49,803 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:27:49,945 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:27:53,063 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-03 15:27:53,073 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:27:55,789 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:27:56,254 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:28:06,361 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:28:06,361 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:28:06,666 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:28:06,668 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:28:06,682 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-03 15:28:06,815 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:28:06,923 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:28:10,018 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-03 15:28:10,048 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:28:12,098 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:28:43,251 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:28:57,841 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:28:57,978 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:28:58,318 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:28:58,326 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:28:58,366 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:28:58,536 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:28:58,686 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:29:01,824 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-03 15:29:01,841 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:29:05,346 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:29:06,276 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:29:15,472 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:29:15,472 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:29:15,778 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:29:15,781 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:29:15,794 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-03 15:29:15,951 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:29:16,096 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:29:19,198 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-03 15:29:19,231 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:29:21,290 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:29:21,675 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:29:28,564 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:29:28,564 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:29:28,583 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:29:28,865 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:29:28,868 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:29:28,881 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:29:28,992 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:29:29,146 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:29:29,245 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:29:29,432 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:29:29,432 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:29:29,464 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:29:31,634 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:29:31,670 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:29:31,675 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:29:31,701 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:29:33,823 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:29:33,849 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:29:33,851 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:29:33,881 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:29:35,950 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:29:35,980 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:29:35,985 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
+2026-07-03 15:29:38,035 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:29:40,161 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:29:47,796 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:29:47,800 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:29:47,811 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:29:48,120 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:29:48,123 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:29:48,135 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:29:48,252 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:29:48,365 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:29:48,475 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:29:48,831 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:29:49,040 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:29:52,051 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:29:52,071 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
+2026-07-03 15:29:52,438 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783072792258.png
+2026-07-03 15:29:54,499 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:29:54,974 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:02,104 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:02,108 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:02,140 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:02,513 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:30:02,513 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:30:02,533 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:30:02,698 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:30:02,868 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:30:03,027 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:30:03,518 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
+2026-07-03 15:30:05,626 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:30:06,279 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:13,702 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:13,705 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:13,732 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:14,095 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:30:14,097 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:30:14,108 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:30:14,262 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:30:14,413 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:30:14,538 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
+2026-07-03 15:30:16,618 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:30:17,066 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:23,578 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:23,578 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:23,598 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:24,040 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:30:24,040 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:30:24,058 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:30:24,180 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:30:24,331 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:30:24,427 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
+2026-07-03 15:30:26,486 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:30:26,978 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:37,181 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:37,183 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:37,197 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:37,558 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:30:37,558 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:30:37,568 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:30:37,698 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:30:37,818 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:30:37,904 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-03 15:30:39,967 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:30:40,963 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:49,438 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:49,440 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:49,452 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:49,793 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Filter Products By Multiple Vendors
+2026-07-03 15:30:50,057 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:30:58,348 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:30:58,350 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:30:58,370 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:30:58,895 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:30:58,897 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:30:58,907 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:30:59,035 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:30:59,159 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:30:59,262 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add a single product to cart
+2026-07-03 15:31:01,314 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:31:01,745 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:31:08,978 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:31:08,986 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:31:08,999 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:31:09,398 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:31:09,400 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:31:09,411 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:31:09,551 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:31:09,694 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:31:09,799 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
+2026-07-03 15:31:11,880 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:31:12,361 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:31:19,675 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:31:19,678 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:31:19,706 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:31:21,140 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:31:21,142 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:31:21,162 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:31:21,478 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:31:21,827 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:31:22,034 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart
+2026-07-03 15:31:24,160 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:32:17,712 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:32:26,480 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:32:26,621 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:32:26,990 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:32:26,996 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:32:27,031 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:32:27,188 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:32:27,326 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:32:30,445 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-03 15:32:30,458 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:32:33,166 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:32:33,589 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:32:40,712 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:32:40,715 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:32:40,992 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:32:40,997 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:32:41,007 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-03 15:32:41,143 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:32:41,254 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:32:44,346 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-03 15:32:44,374 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-03 15:32:46,429 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:33:22,515 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:33:35,148 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:33:35,257 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:33:35,283 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:33:35,578 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:33:35,580 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:33:35,613 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:33:35,807 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:33:35,943 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:33:36,061 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-03 15:33:36,310 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-03 15:33:36,314 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-03 15:33:36,358 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-03 15:33:38,571 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-03 15:33:38,609 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:33:38,611 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-03 15:33:38,650 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-03 15:33:40,774 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-03 15:33:40,804 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:33:40,810 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-03 15:33:40,843 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-03 15:33:42,957 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-03 15:33:43,000 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-03 15:33:43,018 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
+2026-07-03 15:33:46,301 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:33:48,658 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:33:55,877 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:33:55,879 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:33:55,895 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:33:56,201 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:33:56,201 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:33:56,214 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:33:56,334 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:33:56,465 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:33:56,551 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:33:56,921 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-03 15:33:57,110 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-03 15:33:57,571 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-03 15:33:57,594 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
+2026-07-03 15:33:58,035 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783073037803.png
+2026-07-03 15:34:00,111 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-03 15:34:02,171 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-03 15:34:07,558 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-03 15:34:07,562 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-03 15:34:07,586 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-03 15:34:08,080 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-03 15:34:08,086 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-03 15:34:08,106 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-03 15:34:08,327 INFO  stepDef.SignInSteps - Selecting password
+2026-07-03 15:34:08,522 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-03 15:34:08,675 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-03 15:34:09,028 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
+2026-07-03 15:34:11,116 INFO  Hooks.BStackDemoHooks - Closing browser
