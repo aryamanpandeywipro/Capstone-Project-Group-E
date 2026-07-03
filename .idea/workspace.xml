@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf30ad16-24a0-4b91-8bdf-fad618a0b897" name="Changes" comment="Adding comments">
-      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/NavBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/NavBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectsModels/Vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CapstoneReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CapstoneReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Capstone/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Project/Capstone/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Hooks/BStackDemoHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hooks/BStackDemoHooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/NavBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/NavBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Vendor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjectsModels/Vendor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/NavbarSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/NavbarSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDef/SignInSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDef/SignInSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/ScreenShot.class" afterDir="false" />
+    <list default="true" id="cf30ad16-24a0-4b91-8bdf-fad618a0b897" name="Changes" comment="making vendorStepDef file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783057041983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="making vendorStepDef file">
+      <option name="closed" value="true" />
+      <created>1783075004323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783075004323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="making vendorStepDef file">
+      <option name="closed" value="true" />
+      <created>1783075183843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783075183843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NavbarLink code StepDef" />
     <MESSAGE value="Adding comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding comments" />
+    <MESSAGE value="making vendorStepDef file" />
+    <option name="LAST_COMMIT_MESSAGE" value="making vendorStepDef file" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
