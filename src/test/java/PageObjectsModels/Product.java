@@ -5,28 +5,58 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Product {
+
     WebDriver driver;
 
-    // Add to Cart button
-    @FindBy(xpath = "//*[@id='1']/div[4]")
-    WebElement productAddToCart;
+    // Iphone 12
+    @FindBy(css = "[id='1'] > div.shelf-item__buy-btn")
+    WebElement iphone12AddToCart;
+    @FindBy(css = "#\\31  > div.shelf-stopper > button > span.MuiIconButton-label > svg")
+    WebElement iphone12AddToWishList;
 
-    // Add to Wishlist button
-    @FindBy(xpath = "//*[@id='1']/div[1]")
-    WebElement productAddToWishList;
+    // Samsung Galaxy S10
+    @FindBy(css = "[id='13'] > div.shelf-item__buy-btn")
+    WebElement galaxyS10AddToCart;
+    @FindBy(css = "#\\31 3 > div.shelf-stopper > button > span.MuiIconButton-label > svg")
+    WebElement galaxyS10AddToWishList;
 
-    // Constructor
+    // Oneplus 8T
+    @FindBy(css = "[id='21'] > div.shelf-item__buy-btn")
+    WebElement oneplus8TAddToCart;
+    @FindBy(css = "#\\32 1 > div.shelf-stopper > button > span.MuiIconButton-label > svg")
+    WebElement oneplus8TAddToWishList;
+
     public Product(WebDriver driver){
-        this.driver = driver;
+        this.driver=driver;
     }
 
-    // Return Add to Cart button
+    // Returns iphone12 add to cart element
     public WebElement productAddToCart(){
-        return productAddToCart;
+        return iphone12AddToCart;
     }
 
-    // Return Add to Wishlist button
+    // Returns iphone12 add to wishlist
     public WebElement productAddToWishList(){
-        return productAddToWishList;
+        return iphone12AddToWishList;
+    }
+
+    // Returns galaxyS10 add to cart element
+    public WebElement galaxyS10AddToCart(){
+        return galaxyS10AddToCart;
+    }
+
+    // Returns galaxyS10 add to wish list element
+    public WebElement galaxyS10AddToWishList(){
+        return galaxyS10AddToWishList;
+    }
+
+    // Returns oneplus8T add to cart element
+    public WebElement oneplus8TAddToCart(){
+        return oneplus8TAddToCart;
+    }
+
+    // Returns oneplus8T add to wishlist
+    public WebElement oneplus8TAddToWishList(){
+        return oneplus8TAddToWishList;
     }
 }
