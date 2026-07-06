@@ -3,6 +3,7 @@ package PageObjectsModels;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class Product {
 
@@ -28,6 +29,7 @@ public class Product {
 
     public Product(WebDriver driver){
         this.driver=driver;
+        PageFactory.initElements(driver, this);
     }
 
     // Returns iphone12 add to cart element

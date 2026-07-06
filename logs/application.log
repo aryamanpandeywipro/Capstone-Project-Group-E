@@ -213,3 +213,34 @@
 2026-07-03 15:11:59,816 INFO  stepDef.SignInSteps - Selecting password
 2026-07-03 15:12:00,051 INFO  stepDef.SignInSteps - Clicking on Login button
 2026-07-03 15:12:00,238 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-05 10:35:52,643 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-05 10:35:52,670 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-05 10:35:52,977 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-05 10:35:52,979 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-05 10:35:53,008 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-05 10:35:53,161 INFO  stepDef.SignInSteps - Selecting password
+2026-07-05 10:35:53,301 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-05 10:35:53,406 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-05 10:35:55,717 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
+2026-07-05 10:36:03,112 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-05 10:36:03,122 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-05 10:36:03,404 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-05 10:36:03,410 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-05 10:36:03,416 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-05 10:36:03,510 INFO  stepDef.SignInSteps - Selecting password
+2026-07-05 10:36:03,604 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-05 10:36:03,670 INFO  stepDef.addToCartSteps - Adding Product To Cart : iPhone 12
+2026-07-05 10:36:05,929 INFO  stepDef.addToCartSteps - Removing Product : iPhone 12
+2026-07-05 10:36:05,929 INFO  stepDef.addToCartSteps - Verifying Cart Message : Add some products to bag
+2026-07-05 10:36:05,929 INFO  stepDef.addToCartSteps - Verifying Continue Shopping Button
+2026-07-05 10:36:12,357 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-05 10:36:12,373 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-05 10:36:12,657 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-05 10:36:12,657 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-05 10:36:12,657 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-05 10:36:12,768 INFO  stepDef.SignInSteps - Selecting password
+2026-07-05 10:36:12,868 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-05 10:36:12,934 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-05 10:36:15,212 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-05 10:36:17,286 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-05 10:36:19,340 INFO  stepDef.addToCartSteps - Verifying Multiple Products
