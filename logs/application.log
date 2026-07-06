@@ -184,3 +184,182 @@
 2026-07-06 12:03:56,573 INFO  stepDef.addToCartSteps - Verifying Multiple Products
 2026-07-06 12:03:56,574 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart
 2026-07-06 12:03:58,630 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 14:37:17,917 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 14:37:31,491 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 14:37:31,638 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 14:37:31,672 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 14:37:32,314 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 14:37:32,317 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 14:37:32,355 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 14:37:32,546 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 14:37:32,696 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 14:37:32,832 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 14:37:35,793 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 14:37:37,925 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 14:37:40,006 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 14:37:40,044 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 14:37:40,294 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783328860158.png
+2026-07-06 14:37:43,149 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 15:29:10,644 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 15:29:27,957 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 15:29:28,045 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 15:29:28,065 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:29:28,346 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 15:29:28,348 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 15:29:28,373 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 15:29:28,474 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 15:29:28,581 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 15:29:28,665 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 15:29:31,153 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 15:29:33,286 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 15:29:35,406 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 15:29:35,455 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 15:29:35,800 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783331975609.png
+2026-07-06 15:29:39,085 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 15:33:53,955 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 15:34:08,925 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 15:34:09,012 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 15:34:09,030 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:34:09,695 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 15:34:09,697 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 15:34:09,719 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 15:34:09,828 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 15:34:09,940 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 15:34:10,082 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 15:34:12,370 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 15:34:14,440 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 15:34:16,558 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 15:34:16,589 INFO  stepDef.CheckoutSteps - Clicking on Checkout button
+2026-07-06 15:34:16,716 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 15:34:17,086 INFO  stepDef.CheckoutSteps - Entering checkout details
+2026-07-06 15:34:17,651 INFO  stepDef.CheckoutSteps - Submitting checkout details
+2026-07-06 15:34:17,835 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation Page
+2026-07-06 15:34:17,837 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:34:27,897 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 15:34:28,109 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783332268007.png
+2026-07-06 15:34:30,742 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 15:47:49,931 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 15:48:23,847 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 15:48:24,031 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 15:48:24,111 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 15:49:52,139 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 15:50:04,822 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 15:50:04,965 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 15:50:04,993 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:50:05,316 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 15:50:05,318 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 15:50:05,350 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 15:50:05,473 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 15:50:05,576 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 15:50:05,680 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 15:50:07,945 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 15:50:10,030 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 15:50:12,084 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 15:50:12,154 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 15:50:12,555 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783333212341.png
+2026-07-06 15:50:15,963 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 15:58:57,509 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 15:59:10,813 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 15:59:10,899 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 15:59:10,920 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:59:11,178 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 15:59:11,181 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 15:59:11,204 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 15:59:11,305 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 15:59:11,397 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 15:59:11,472 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 15:59:13,703 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 15:59:15,772 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 15:59:17,833 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 15:59:17,868 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-06 15:59:18,004 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 15:59:18,616 INFO  stepDef.CheckoutSteps - Entering checkout details
+2026-07-06 15:59:19,617 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-06 15:59:19,678 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 15:59:29,742 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 15:59:30,076 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783333769901.png
+2026-07-06 15:59:33,046 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 16:10:39,783 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 16:11:04,612 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 16:11:04,764 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 16:11:04,796 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 16:11:05,153 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 16:11:05,155 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 16:11:05,185 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 16:11:05,335 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 16:11:05,451 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 16:11:05,541 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 16:11:07,805 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 16:11:09,883 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 16:11:11,949 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 16:11:11,963 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-06 16:11:12,008 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 16:11:12,212 INFO  stepDef.CheckoutSteps - Entering checkout details
+2026-07-06 16:11:12,590 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-06 16:11:12,616 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 16:11:22,700 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 16:11:22,897 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783334482795.png
+2026-07-06 16:11:25,424 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 16:17:45,610 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 16:17:53,226 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 16:17:53,330 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 16:17:53,351 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 16:17:53,664 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 16:17:53,666 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 16:17:53,691 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 16:17:53,790 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 16:17:53,879 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 16:17:53,947 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 16:17:56,240 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 16:17:58,405 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 16:18:00,481 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 16:18:00,496 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-06 16:18:00,557 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 16:18:01,017 INFO  stepDef.CheckoutSteps - Entering checkout details
+2026-07-06 16:18:01,511 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-06 16:18:01,537 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
+2026-07-06 16:18:02,167 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
+2026-07-06 16:18:02,314 INFO  stepDef.CheckoutSteps - Clicking Orders menu
+2026-07-06 16:18:02,424 INFO  stepDef.CheckoutSteps - Verifying placed order
+2026-07-06 16:18:02,429 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Checking Out
+2026-07-06 16:18:05,956 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 16:27:38,984 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 16:27:48,901 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 16:27:48,978 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 16:27:48,997 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 16:27:49,301 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 16:27:49,302 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 16:27:49,323 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 16:27:49,438 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 16:27:49,516 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 16:27:49,576 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 16:27:51,844 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 16:27:53,897 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 16:27:55,953 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 16:27:55,966 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-06 16:27:56,008 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 16:27:56,495 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Checking Out
+2026-07-06 16:27:56,670 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Checking_Out_1783335476578.png
+2026-07-06 16:27:59,194 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-06 16:30:33,033 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-06 16:30:42,871 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-06 16:30:42,957 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-06 16:30:42,978 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-06 16:30:43,699 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-06 16:30:43,701 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-06 16:30:43,722 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-06 16:30:43,807 INFO  stepDef.SignInSteps - Selecting password
+2026-07-06 16:30:43,898 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-06 16:30:44,000 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-06 16:30:46,404 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-06 16:30:48,478 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
+2026-07-06 16:30:50,544 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-06 16:30:50,558 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-06 16:30:50,601 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-06 16:30:51,332 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-06 16:30:51,370 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
+2026-07-06 16:30:52,570 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
+2026-07-06 16:30:52,746 INFO  stepDef.CheckoutSteps - Clicking Orders menu
+2026-07-06 16:30:52,874 INFO  stepDef.CheckoutSteps - Verifying placed order
+2026-07-06 16:30:52,881 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Checking Out
+2026-07-06 16:30:56,208 INFO  Hooks.BStackDemoHooks - Closing browser

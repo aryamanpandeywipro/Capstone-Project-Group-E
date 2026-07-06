@@ -4,10 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = {"src/test/java/features/A_signIn.feature",
-				"src/test/java/features/B_Navbar.feature",
-				"src/test/java/features/C_ProductFilteringByVendor.feature",
-				"src/test/java/features/D_CartFunctionality.feature"},
+		features = {"src/test/java/features/E_Checkout.feature"},
 		glue={"stepDef", "Hooks"}, monochrome=true,
 		plugin= {"pretty","html:target/CapstoneReport.html"}
 		)
