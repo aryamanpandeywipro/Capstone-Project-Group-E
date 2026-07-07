@@ -16,7 +16,7 @@ When User clicks on "Checkout" button in the cart panel
 Then User is redirected to Checkout page
 When User fills all the details and clicks on "SUBMIT" button
 Then User is redirected to order confirmation page
-And User clicks on "Download order reciept" link
+And User clicks on Download order reciept link
 And User clicks on "CONTINUE SHOPPING" button and is redirected to Home Page
 When User clicks on "Orders" in NavBar 
 Then User can see the order placed
