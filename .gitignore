@@ -5,3 +5,4 @@ test-output/
 logs/
 .settings
 screenshot/
+allure-results/

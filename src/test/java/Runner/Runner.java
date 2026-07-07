@@ -6,7 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = {"src/test/java/features/E_Checkout.feature"},
 		glue={"stepDef", "Hooks"}, monochrome=true,
-		plugin= {"pretty","html:target/CapstoneReport.html"}
+		plugin= {"pretty","html:target/CapstoneReport.html",
+				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 		)
 public class Runner extends AbstractTestNGCucumberTests{
 
