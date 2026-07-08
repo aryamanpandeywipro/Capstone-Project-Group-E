@@ -10,18 +10,17 @@ import org.openqa.selenium.support.PageFactory;
 public class Cart {
 
     WebDriver driver;
-
-    @FindBy (className = "bag bag--float-cart-closed")
-    WebElement cartOpenButton;
-
-    @FindBy (className = "float-cart__close-btn")
-    WebElement cartCloseButton;
-
-
+    
     public Cart(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    @FindBy(css = ".bag.bag--float-cart-closed")
+    WebElement cartOpenButton;
+
+    @FindBy (className = "float-cart__close-btn")
+    WebElement cartCloseButton;
 
     // iphone12
     @FindBy (xpath = "//p[text()='iphone 12']")

@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class Checkout {
 	WebDriver driver;
+	public Checkout(WebDriver driver){
+	    this.driver=driver;
+	}
 
 	By logo= By.xpath("//a[contains(@class,'checkoutHeader-link')]");
 	By firstName= By.id("firstNameInput");
@@ -13,12 +16,9 @@ public class Checkout {
 	By address= By.id("addressLine1Input");
 	By state= By.id("provinceInput");
 	By postalCode= By.id("postCodeInput");
-
 	By submitButton= By.id("checkout-shipping-continue");
 
-	public Checkout(WebDriver driver){
-	    this.driver=driver;
-	}
+	
 
 	public WebElement logo(){
 	    return driver.findElement(logo);

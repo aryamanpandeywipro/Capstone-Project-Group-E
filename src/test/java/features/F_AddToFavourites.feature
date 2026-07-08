@@ -1,4 +1,4 @@
-Feature: Adding products to Favourotes
+Feature: Adding products to Favourites
 
 Background:
 Given User is on BStackDemo HomePage
@@ -17,5 +17,5 @@ When User clicks on the heart icon again of the "iphone 12"
 Then "iphone12" product gets removed from the favourites list
 
 Scenario: Adding to cart from favourites
-When User clicks on "Add to cart" of the product "iPhone 12"
-Then Shopping cart side panel pops up showing added "iPhone 12" product only
+When User clicks on the "Add to cart" of the product "iPhone 12"
+Then Shopping cart panel pops up showing added "iPhone 12" product only

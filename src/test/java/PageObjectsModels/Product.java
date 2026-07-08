@@ -8,6 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class Product {
 
     WebDriver driver;
+    
+    public Product(WebDriver driver){
+        this.driver=driver;
+        PageFactory.initElements(driver, this);
+    }
 
     // Iphone 12
     @FindBy(css = "[id='1'] > div.shelf-item__buy-btn")
@@ -27,10 +32,7 @@ public class Product {
     @FindBy(css = "#\\32 1 > div.shelf-stopper > button > span.MuiIconButton-label > svg")
     WebElement oneplus8TAddToWishList;
 
-    public Product(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
-    }
+    
 
     // Returns iphone12 add to cart element
     public WebElement productAddToCart(){
