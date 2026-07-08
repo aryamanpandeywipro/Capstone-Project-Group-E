@@ -6,13 +6,15 @@ import org.openqa.selenium.WebElement;
 
 public class ConfirmationPage {
     WebDriver driver;
+    
+    public ConfirmationPage(WebDriver driver){
+        this.driver=driver;
+    }
     By downloadReceipt = By.cssSelector(".underline.cursor-pointer");
     By continueShoppingButton= By.xpath("//button[contains(@class,'button--tertiary')]");
     By orderSummary= By.cssSelector(".cart.optimizedCheckout-orderSummary");
 
-    public ConfirmationPage(WebDriver driver){
-        this.driver=driver;
-    }
+    
 
     // Get download receipt element
     public WebElement downloadReceipt(){

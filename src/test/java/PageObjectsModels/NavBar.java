@@ -7,6 +7,11 @@ import org.openqa.selenium.WebElement;
 public class NavBar {
 
 	WebDriver driver;
+	
+	// Constructor
+		public NavBar(WebDriver driver) {
+			this.driver = driver;
+		}
 
 	// Navbar logo
 	By logo = By.className("Navbar_logo__image__3Blki");
@@ -32,10 +37,7 @@ public class NavBar {
 	// Logout button
 	By logout = By.xpath("//*[@id='signin']");
 
-	// Constructor
-	public NavBar(WebDriver driver) {
-		this.driver = driver;
-	}
+	
 
 	// Return navbar logo
 	public WebElement logo() {

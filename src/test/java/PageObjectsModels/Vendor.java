@@ -8,6 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 public class Vendor {
 
     WebDriver driver;
+    
+    // Constructor
+    public Vendor(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
 
     // Apple vendor filter
     @FindBy(xpath = "//span[text()='Apple']")
@@ -25,11 +31,7 @@ public class Vendor {
     @FindBy(xpath = "//span[text()='OnePlus']")
     WebElement oneplusVendor;
 
-    // Constructor
-    public Vendor(WebDriver driver){
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
+   
 
     // Return Apple filter
     public WebElement appleVendor(){
