@@ -1,21 +1,32 @@
 package stepDef;
 
+import static Hooks.BStackDemoHooks.driver;
+
+import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
-import Hooks.BStackDemoHooks;
 import PageObjectsModels.Cart;
 import PageObjectsModels.Favouritespage;
+import PageObjectsModels.NavBar;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import utils.ExtentManager;
 
-public class FavouritesSteps{
+public class FavouritesSteps {
 
     private static final Logger logger = LogManager.getLogger(FavouritesSteps.class);
-    Favouritespage fp = new Favouritespage(BStackDemoHooks.driver);
-    Cart c= new Cart(BStackDemoHooks.driver);
+    Favouritespage fp = new Favouritespage(driver);
+    NavBar nb= new NavBar(driver);
+    Cart c= new Cart(driver);
+    WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(10));
 
     @When("User Clicks the heart icon on the {string} product")
     public void adding_iphone12_toFavourites(String string) throws InterruptedException {
@@ -23,7 +34,7 @@ public class FavouritesSteps{
         logger.info("Adding Product to Favourites : " + string);
         ExtentManager.getTest().info("Adding product to favourites: " + string);
 
-        if (string.equalsIgnoreCase("iphone 12")) {
+        if (string.equalsIgnoreCase("iphone12")) {
             fp.iphone12AddToWishList().click();
         }
         Thread.sleep(2000);
@@ -61,7 +72,9 @@ public class FavouritesSteps{
         logger.info("Verifying navigation to Favourites page");
         ExtentManager.getTest().info("Verifying navigation to Favourites page");
 
-        Assert.assertTrue("The user is not navigated to favourites page",BStackDemoHooks.driver.getCurrentUrl().contains("favourites"));
+        Assert.assertTrue(
+                driver.getCurrentUrl().contains("favourites"),
+                "The user is not navigated to favourites page");
     }
 
     @When("User clicks on the heart icon again of the {string}")
@@ -69,7 +82,8 @@ public class FavouritesSteps{
         logger.info("Removing Product from Favourites : " + string);
         ExtentManager.getTest().info("Removing Product from Favourites : " + string);
 
-        if (string.equalsIgnoreCase("iPhone 12")) {
+        if (string.equalsIgnoreCase("iPhone12")) {
+            Thread.sleep(2000);
             fp.iphone12AddToWishList().click();
         }
         Thread.sleep(2000);
@@ -82,36 +96,46 @@ public class FavouritesSteps{
         logger.info("Verifying product removed from favourites : " + string);
         ExtentManager.getTest().info("Verifying product removed from favourites : " + string);
 
-        Assert.assertTrue(  string+ " is not removed",fp.iphone12AddToWishList().isDisplayed());
+        Assert.assertTrue(
+                driver.findElements(By.xpath("//div[@id='1']/div[1]")).isEmpty(),
+                string + " is still present in favourites"
+        );
         Thread.sleep(2000);
     }
 
-    @When("User clicks on the {string} of the product {string}")
+    @When("User clicks on {string} of the favourite product {string}")
     public void user_adds_iphone12_to_cart_from_favourites(String string, String string2) throws InterruptedException {
         // Write code here that turns the phrase above into concrete actions
 
         logger.info("Clicking " + string + " for product : " + string2);
         ExtentManager.getTest().info("Clicking " + string + " for product : " + string2);
 
-        if (string2.equalsIgnoreCase("iphone 12")) {
-            fp.favouritesTab().click();
+        if (string2.equalsIgnoreCase("iphone12")) {
             fp.iphone12AddToWishList().click();
-            fp.iphone12AddToCart().click();
+            Thread.sleep(2000);
+            nb.favourites().click();
+            System.out.println("favourites clicked");
+            wait.until(ExpectedConditions.elementToBeClickable(fp.iphone12AddToCart()));
+            WebElement addToCart= fp.iphone12AddToCart();
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click()",addToCart);
+            System.out.println("add to cart clicked");
         }
         Thread.sleep(2000);
     }
 
-    @Then("Shopping cart panel pops up showing added {string} product only")
-    public void shopping_cart_panel_pops_up_showing_added_product_only(String string) {
+    @Then("Shopping cart side panel pops up showing favourite {string} product only")
+    public void shopping_cart_side_panel_pops_up_showing_added_product_only(String string) {
         // Write code here that turns the phrase above into concrete actions
 
         logger.info("Verifying shopping cart side panel for product : " + string);
         ExtentManager.getTest().info("Verifying shopping cart side panel for product : " + string);
 
-        if (string.equalsIgnoreCase("iphone 12")){
-            Assert.assertTrue("The shopping cart side panel is not popped up",c.checkout().isDisplayed());
-            Assert.assertTrue( "The cart does not contain " + string,c.iphone12Remove().isDisplayed());
+        if (string.equalsIgnoreCase("iphone12")){
+            Assert.assertTrue(c.checkout().isDisplayed(),"The shopping cart side panel is not popped up");
+            Assert.assertTrue(c.iphone12Remove().isDisplayed(), "The cart does not contain " + string);
         }
     }
 
 }
+ 
