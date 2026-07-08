@@ -10,20 +10,21 @@ import org.openqa.selenium.support.PageFactory;
 public class Cart {
 
     WebDriver driver;
-    
-    public Cart(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
 
-    @FindBy(css = ".bag.bag--float-cart-closed")
+    @FindBy (css = ".bag.bag--float-cart-closed")
     WebElement cartOpenButton;
 
     @FindBy (className = "float-cart__close-btn")
     WebElement cartCloseButton;
 
+
+    public Cart(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
     // iphone12
-    @FindBy (xpath = "//p[text()='iphone 12']")
+   @FindBy(xpath = "//p[contains(text(),'iPhone 12')]")
     WebElement iphone12Title;
 
     // removing iphone12 from cart
@@ -43,7 +44,7 @@ public class Cart {
 
 
     // Galaxy S10 (Samsung)
-    @FindBy(xpath = "//p[text()='Galaxy S10']")
+    @FindBy(xpath = "//p[contains(text(),'Galaxy S10')]")
     WebElement galaxyS10Title;
 
     // removing Galaxy S10 from cart
@@ -68,7 +69,7 @@ public class Cart {
     }
 
     // OnePlus 8T
-    @FindBy(xpath = "//p[text()='One Plus 8T']")
+    @FindBy(xpath = "//p[contains(text(),'OnePlus 8T')]")
     WebElement onePlus8TTitle;
 
     // removing OnePlus 8T from cart
@@ -99,5 +100,5 @@ public class Cart {
     public WebElement checkout(){
         return checkout;
     }
-}
+} 
  
