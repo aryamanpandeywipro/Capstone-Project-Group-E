@@ -22,8 +22,7 @@ public class CheckoutSteps {
     // Page Objects
     Cart cart = new Cart(BStackDemoHooks.driver);
     Checkout checkout = new Checkout(BStackDemoHooks.driver);
-    ConfirmationPage confirmationPage =
-            new ConfirmationPage(BStackDemoHooks.driver);
+    ConfirmationPage confirmationPage =new ConfirmationPage(BStackDemoHooks.driver);
     NavBar nb = new NavBar(BStackDemoHooks.driver);
 
     // CLICK CHECKOUT
@@ -41,8 +40,7 @@ public class CheckoutSteps {
         logger.info("Verifying Checkout page");
         ExtentManager.getTest().info("Verifying Checkout page");
         Assert.assertTrue(checkout.logo().isDisplayed());
-        ExtentManager.getTest()
-                .pass("User successfully redirected to Checkout page");
+        ExtentManager.getTest().pass("User successfully redirected to Checkout page");
     }
 
     // FILL SHIPPING DETAILS

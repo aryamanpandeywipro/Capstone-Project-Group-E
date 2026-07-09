@@ -37,7 +37,6 @@ public class FavouritesSteps {
         if (string.equalsIgnoreCase("iphone12")) {
             fp.iphone12AddToWishList().click();
         }
-        Thread.sleep(2000);
     }
 
     @When("User clicks on the heart icon of the {string} and {string} products")
@@ -51,7 +50,6 @@ public class FavouritesSteps {
             fp.galaxyS10AddToWishList().click();
             fp.oneplus8TAddToWishList().click();
         }
-        Thread.sleep(2000);
     }
 
     @When("User clicks on the {string} tab in the NavBar")
@@ -63,7 +61,7 @@ public class FavouritesSteps {
         if (string.equalsIgnoreCase("Favourites")) {
             fp.favouritesTab().click();
         }
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.urlContains("favourites"));
     }
 
     @Then("User is redirected to the Favourites page and can see the products added")
@@ -83,10 +81,9 @@ public class FavouritesSteps {
         ExtentManager.getTest().info("Removing Product from Favourites : " + string);
 
         if (string.equalsIgnoreCase("iPhone12")) {
-            Thread.sleep(2000);
+        	wait.until(ExpectedConditions.elementToBeClickable(fp.iphone12AddToWishList()));
             fp.iphone12AddToWishList().click();
         }
-        Thread.sleep(2000);
     }
 
     @Then("{string} product gets removed from the favourites list")
@@ -100,7 +97,6 @@ public class FavouritesSteps {
                 driver.findElements(By.xpath("//div[@id='1']/div[1]")).isEmpty(),
                 string + " is still present in favourites"
         );
-        Thread.sleep(2000);
     }
 
     @When("User clicks on {string} of the favourite product {string}")
@@ -111,8 +107,9 @@ public class FavouritesSteps {
         ExtentManager.getTest().info("Clicking " + string + " for product : " + string2);
 
         if (string2.equalsIgnoreCase("iphone12")) {
+        	wait.until(ExpectedConditions.elementToBeClickable(fp.iphone12AddToWishList()));
             fp.iphone12AddToWishList().click();
-            Thread.sleep(2000);
+            wait.until(ExpectedConditions.elementToBeClickable(nb.favourites()));
             nb.favourites().click();
             System.out.println("favourites clicked");
             wait.until(ExpectedConditions.elementToBeClickable(fp.iphone12AddToCart()));
@@ -121,7 +118,6 @@ public class FavouritesSteps {
             js.executeScript("arguments[0].click()",addToCart);
             System.out.println("add to cart clicked");
         }
-        Thread.sleep(2000);
     }
 
     @Then("Shopping cart side panel pops up showing favourite {string} product only")

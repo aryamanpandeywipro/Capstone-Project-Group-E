@@ -107,7 +107,7 @@ public class SignInSteps {
         Assert.assertTrue("SignedIn ",BStackDemoHooks.driver.getCurrentUrl().contains("signin=true"));
         } else {
             logger.error("Verifying login failure due to locked account");
-            ExtentManager.getTest().fail("Login failed due to locked account");
+            ExtentManager.getTest().pass("Login failed due to locked account");
  
             String errorMessage = BStackDemoHooks.driver.findElement(By.xpath("//h3[@class='api-error']")).getText();
  
