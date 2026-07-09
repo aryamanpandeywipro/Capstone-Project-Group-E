@@ -1,5 +1,6 @@
 package stepDef;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -7,8 +8,14 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Hooks.BStackDemoHooks;
+import PageObjectsModels.Product;
 import PageObjectsModels.ProductSort;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -17,7 +24,9 @@ import utils.ExtentManager;
 public class SortingSteps {
 
     private static final Logger logger = LogManager.getLogger(SortingSteps.class);
+    private final WebDriverWait wait = new WebDriverWait(BStackDemoHooks.driver, Duration.ofSeconds(10));
     ProductSort ps= new ProductSort(BStackDemoHooks.driver);
+    Product p= new Product(BStackDemoHooks.driver);
 
     @When("User clicks on the sort filter")
     public void user_clicks_on_the_sort_filter() throws InterruptedException {
@@ -26,26 +35,22 @@ public class SortingSteps {
         ExtentManager.getTest().info("User is clicking on the sort filter");
 
         ps.sortFilter().click();
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.visibilityOf(ps.sortFilter()));
     }
 
     @When("User selects the {string} from the dropdown")
-    public void user_selects_the_order_from_the_dropdown(String string) throws InterruptedException {
-        // Write code here that turns the phrase above into concrete actions
-        logger.info("User selects the "+ string+" from the dropdown");
-        ExtentManager.getTest().info("User selects the "+ string+" from the dropdown");
+    public void user_selects_the_order_from_the_dropdown(String order) throws InterruptedException {
+    	logger.info("User selects the "+ order+" from the dropdown");
+        ExtentManager.getTest().info("User selects the "+ order+" from the dropdown");
 
-        if (string.equalsIgnoreCase("Select")){
-            ps.sortFilter().click();
-        }
-        else if (string.equalsIgnoreCase("Lowest to highest")){
-            ps.lowestToHighest().click();
-        }
-        else if (string.equalsIgnoreCase("Highest to lowest")){
-            ps.highestToLowest().click();
-        }
-        Thread.sleep(2000);
-    }
+    	WebElement dropdown = wait.until(
+            ExpectedConditions.elementToBeClickable(By.xpath("//select")));
+
+    	Select select = new Select(dropdown);
+
+    	select.selectByVisibleText(order);
+    	Thread.sleep(2000);
+}
 
     @Then("Products are sorted in {string} order")
     public void products_are_sorted_in_order(String string) throws InterruptedException {

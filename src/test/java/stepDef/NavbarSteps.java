@@ -1,21 +1,25 @@
 package stepDef;
  
+import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
- 
+
 import Hooks.BStackDemoHooks;
 import PageObjectsModels.HomePage;
 import PageObjectsModels.NavBar;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
- 
 import utils.ExtentManager;
  
 public class NavbarSteps {
     // Log4j logger for execution logs
     private static final Logger logger = LogManager.getLogger(NavbarSteps.class);
+    private final WebDriverWait wait = new WebDriverWait(BStackDemoHooks.driver, Duration.ofSeconds(10));
  
     // PAGE OBJECTS
     NavBar nb = new NavBar(BStackDemoHooks.driver);
@@ -51,7 +55,7 @@ public class NavbarSteps {
         logger.info("Clicking on Offers link");
         ExtentManager.getTest().info("Clicking on Offers link");
         nb.offers().click();
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.urlContains("offers"));
         logger.info("Current URL: " + BStackDemoHooks.driver.getCurrentUrl());
  
         // Extent log
@@ -70,7 +74,7 @@ public class NavbarSteps {
         logger.info("Clicking on Orders link");
         ExtentManager.getTest().info("Clicking on Orders link");
         nb.orders().click();
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.urlContains("orders"));
         logger.info("Current URL: " + BStackDemoHooks.driver.getCurrentUrl());
         BStackDemoHooks.driver.navigate().back();
         logger.info("Returned back to Home Page");
@@ -85,7 +89,7 @@ public class NavbarSteps {
         logger.info("Clicking on Favourites link");
         ExtentManager.getTest().info("Clicking on Favourites link");
         nb.favourites().click();
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.urlContains("favourites"));
         logger.info("Current URL: " + BStackDemoHooks.driver.getCurrentUrl());
         BStackDemoHooks.driver.navigate().back();
         logger.info("Returned back to Home Page");
@@ -141,6 +145,7 @@ public class NavbarSteps {
         // Extent log
         ExtentManager.getTest().info("Clicking on Log Out");
         nb.logout().click();
+        wait.until(ExpectedConditions.urlToBe("https://bstackdemo.com/"));
     }
  
     @Then("User is Logged Out")

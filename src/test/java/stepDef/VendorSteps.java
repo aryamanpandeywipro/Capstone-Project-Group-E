@@ -9,7 +9,6 @@ import PageObjectsModels.Vendor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import utils.ExtentManager; 
 
 public class VendorSteps {

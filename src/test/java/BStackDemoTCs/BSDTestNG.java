@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -40,10 +41,10 @@ public class BSDTestNG extends baseClass {
     }
 
     // Launch Browser
+    @Parameters(value = {"browser"})
     @BeforeClass
-    public void CallingBrowser() {
-
-        invokeBrowser("Chrome");
+    public void CallingBrowser(String browser) {
+        invokeBrowser(browser);
         log.info("Chrome Browser launched successfully");
     }
 

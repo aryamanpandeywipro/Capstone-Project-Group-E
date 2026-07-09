@@ -1,21 +1,27 @@
 package stepDef;
 
+import java.time.Duration;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import Hooks.BStackDemoHooks;
+import PageObjectsModels.Cart;
 import PageObjectsModels.Product;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
-
 import utils.ExtentManager; 
 
 public class addToCartSteps {
 
     private static final Logger logger = LogManager.getLogger(addToCartSteps.class);
+    private final WebDriverWait wait = new WebDriverWait(BStackDemoHooks.driver, Duration.ofSeconds(10));
     Product pd = new Product(BStackDemoHooks.driver);
+    Cart c=new Cart(BStackDemoHooks.driver);
 
     // ADD SINGLE PRODUCT 
     @When("User clicks on {string} of the product {string}")
@@ -27,7 +33,7 @@ public class addToCartSteps {
         if (productName.equalsIgnoreCase("iPhone 12")) {
             pd.productAddToCart().click();
         }
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.elementToBeClickable(c.checkout()));
     }
 
     // VERIFY SINGLE PRODUCT 
@@ -47,7 +53,7 @@ public class addToCartSteps {
      if (productName.equalsIgnoreCase("iPhone 12")) {
             pd.productAddToCart().click();
         }
-        Thread.sleep(2000);
+        wait.until(ExpectedConditions.elementToBeClickable(c.checkout()));
     }
 
     // REMOVE PRODUCT 
@@ -86,14 +92,13 @@ public class addToCartSteps {
         if (product1.equalsIgnoreCase("Galaxy S10")) {
             pd.galaxyS10AddToCart().click();
         }
-        Thread.sleep(2000);
         logger.info("Adding Product : " + product2);
+        wait.until(ExpectedConditions.elementToBeClickable(pd.oneplus8TAddToCart()));
         ExtentManager.getTest().info("Adding product to cart: " + product2);
 
         if (product2.equalsIgnoreCase("One Plus 8T")) {
             pd.oneplus8TAddToCart().click();
         }
-        Thread.sleep(2000);
     }
 
     // VERIFY MULTIPLE PRODUCTS 
