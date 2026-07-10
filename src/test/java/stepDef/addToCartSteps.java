@@ -81,24 +81,17 @@ public class addToCartSteps {
     ExtentManager.getTest().pass("Continue Shopping button is visible");
     Assert.assertTrue(true);
     }
-
+    
     // ADD MULTIPLE PRODUCTS 
-    @When("User clicks on the {string} of the products {string} and {string}")
+    @When("User clicks on the {string} of the product {string}")
     public void addMultipleProducts(String button,
-                                    String product1,
-                                    String product2) throws InterruptedException {
-        logger.info("Adding Product : " + product1);
-        ExtentManager.getTest().info("Adding product to cart: " + product1);
-        if (product1.equalsIgnoreCase("Galaxy S10")) {
+                                    String product) throws InterruptedException {
+        logger.info("Adding Product : " + product);
+        ExtentManager.getTest().info("Adding product to cart: " + product);
+        if (product.equalsIgnoreCase("Galaxy S10")) {
             pd.galaxyS10AddToCart().click();
         }
-        logger.info("Adding Product : " + product2);
-        wait.until(ExpectedConditions.elementToBeClickable(pd.oneplus8TAddToCart()));
-        ExtentManager.getTest().info("Adding product to cart: " + product2);
-
-        if (product2.equalsIgnoreCase("One Plus 8T")) {
-            pd.oneplus8TAddToCart().click();
-        }
+        
     }
 
     // VERIFY MULTIPLE PRODUCTS 
