@@ -1,530 +1,627 @@
-2026-07-09 16:28:15,531 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:28:26,270 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:28:26,512 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:28:26,806 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:28:26,814 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:28:26,841 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:28:26,960 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:28:27,062 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:28:30,158 INFO  stepDef.SignInSteps - Verifying successful login
-2026-07-09 16:28:30,169 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
-2026-07-09 16:28:32,886 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:28:33,752 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:28:40,031 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:28:40,044 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:28:40,402 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:28:40,403 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:28:40,418 INFO  stepDef.SignInSteps - Selecting username: locked_user
-2026-07-09 16:28:40,590 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:28:40,718 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:28:43,851 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
-2026-07-09 16:28:43,883 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
-2026-07-09 16:28:45,938 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:28:46,366 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:28:52,794 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:28:52,807 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:28:52,822 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:28:53,187 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:28:53,190 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:28:53,201 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:28:53,332 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:28:53,493 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:28:53,592 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
-2026-07-09 16:28:53,784 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
-2026-07-09 16:28:53,787 INFO  stepDef.NavbarSteps - Verifying Offers link
-2026-07-09 16:28:53,835 INFO  stepDef.NavbarSteps - Clicking on Offers link
-2026-07-09 16:28:54,095 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
-2026-07-09 16:28:54,179 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:28:54,192 INFO  stepDef.NavbarSteps - Verifying Orders link
-2026-07-09 16:28:54,293 INFO  stepDef.NavbarSteps - Clicking on Orders link
-2026-07-09 16:28:54,565 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
-2026-07-09 16:28:54,631 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:28:54,633 INFO  stepDef.NavbarSteps - Verifying Favourites link
-2026-07-09 16:28:54,701 INFO  stepDef.NavbarSteps - Clicking on Favourites link
-2026-07-09 16:28:54,933 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
-2026-07-09 16:28:54,978 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:28:54,981 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
-2026-07-09 16:28:57,114 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:28:57,575 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:29:03,659 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:29:03,667 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:03,682 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:29:04,030 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:29:04,033 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:29:04,047 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:29:04,191 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:29:04,318 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:29:04,425 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:04,787 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
-2026-07-09 16:29:04,969 INFO  stepDef.NavbarSteps - Clicking on Search icon
-2026-07-09 16:29:05,555 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
-2026-07-09 16:29:05,575 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
-2026-07-09 16:29:06,016 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783594745759.png
-2026-07-09 16:29:08,073 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:29:08,465 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:29:12,920 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:29:12,941 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:12,967 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:29:13,357 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:29:13,359 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:29:13,382 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:29:13,590 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:29:13,779 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:29:13,927 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : iphone 12
-2026-07-09 16:29:13,930 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : Galaxy s10,One Plus 8T
-2026-07-09 16:29:14,322 INFO  stepDef.FavouritesSteps - Clicking Navbar Tab : Favourites
-2026-07-09 16:29:14,465 INFO  stepDef.FavouritesSteps - Verifying navigation to Favourites page
-2026-07-09 16:29:14,485 INFO  stepDef.FavouritesSteps - Removing Product from Favourites : iphone 12
-2026-07-09 16:29:14,488 INFO  stepDef.FavouritesSteps - Verifying product removed from favourites : iphone12
-2026-07-09 16:29:24,532 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding and Unadding products to favourites
-2026-07-09 16:29:26,594 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:29:27,239 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:29:36,318 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:29:36,331 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:36,346 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:29:36,707 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:29:36,709 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:29:36,722 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:29:36,915 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:29:37,032 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:29:37,141 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:29:37,590 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
-2026-07-09 16:29:37,595 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding to cart from favourites
-2026-07-09 16:29:39,725 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:29:40,271 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:29:45,851 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:29:45,859 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:45,872 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:29:46,152 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:29:46,153 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:29:46,162 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:29:46,258 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:29:46,343 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:29:46,415 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:29:48,641 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:29:48,643 INFO  stepDef.VendorSteps - Verifying Products For Vendor : Apple
-2026-07-09 16:29:48,643 INFO  stepDef.VendorSteps - Products displayed successfully for Vendor : Apple
-2026-07-09 16:29:48,643 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
-2026-07-09 16:29:50,681 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:29:50,982 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:29:56,929 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:29:56,935 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:29:56,946 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:29:57,219 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:29:57,220 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:29:57,228 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:29:57,302 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:29:57,381 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:29:57,445 INFO  stepDef.VendorSteps - Applying Vendor Filter : Apple
-2026-07-09 16:29:57,445 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:29:59,705 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:29:59,706 INFO  stepDef.VendorSteps - Removing Vendor Filter : Apple
-2026-07-09 16:29:59,707 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:30:01,755 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:30:01,756 INFO  stepDef.VendorSteps - Verifying All Products Are Displayed
-2026-07-09 16:30:01,757 INFO  stepDef.VendorSteps - All Products Displayed Successfully
-2026-07-09 16:30:01,757 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
-2026-07-09 16:30:03,796 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:30:04,060 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:30:10,091 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:30:10,100 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:30:10,111 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:30:10,392 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:30:10,394 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:30:10,401 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:30:10,483 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:30:10,567 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:30:10,629 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:30:12,885 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:30:12,887 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Google
-2026-07-09 16:30:14,939 INFO  stepDef.VendorSteps - Vendor Selected : Google
-2026-07-09 16:30:14,941 INFO  stepDef.VendorSteps - Verifying Products For Vendors : Apple and Google
-2026-07-09 16:30:14,941 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
-2026-07-09 16:30:14,942 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
-2026-07-09 16:30:16,982 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:30:17,232 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:30:21,888 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:30:21,895 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:30:21,905 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:30:22,174 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:30:22,176 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:30:22,185 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:30:22,274 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:30:22,362 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:30:22,429 INFO  stepDef.VendorSteps - Clicking Vendor Filter : OnePlus
-2026-07-09 16:30:24,699 INFO  stepDef.VendorSteps - Vendor Selected : OnePlus
-2026-07-09 16:30:24,700 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Samsung
-2026-07-09 16:30:26,770 INFO  stepDef.VendorSteps - Vendor Selected : Samsung
-2026-07-09 16:30:26,771 INFO  stepDef.VendorSteps - Verifying Products For Vendors : OnePlus and Samsung
-2026-07-09 16:30:26,772 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
-2026-07-09 16:30:26,772 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
-2026-07-09 16:30:28,816 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:30:29,097 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:30:35,449 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:30:35,455 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:30:35,465 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:30:35,683 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:30:35,685 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:30:35,692 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:30:35,774 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:30:35,858 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:30:35,919 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:30:36,203 INFO  stepDef.SortingSteps - User selects the Select from the dropdown
-2026-07-09 16:30:38,331 INFO  stepDef.SortingSteps - Products are sorted in Default order
-2026-07-09 16:30:40,565 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:30:42,605 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:30:42,842 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:30:51,303 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:30:51,309 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:30:51,318 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:30:51,577 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:30:51,578 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:30:51,585 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:30:51,668 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:30:51,745 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:30:51,803 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:30:52,088 INFO  stepDef.SortingSteps - User selects the Lowest to highest from the dropdown
-2026-07-09 16:30:54,241 INFO  stepDef.SortingSteps - Products are sorted in Ascending order
-2026-07-09 16:30:54,429 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:30:56,460 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:30:56,711 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:31:02,616 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:31:02,623 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:31:02,633 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:31:02,901 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:31:02,903 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:31:02,912 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:31:02,996 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:31:03,097 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:31:03,158 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:31:03,445 INFO  stepDef.SortingSteps - User selects the Highest to lowest from the dropdown
-2026-07-09 16:31:05,591 INFO  stepDef.SortingSteps - Products are sorted in Descending order
-2026-07-09 16:31:05,767 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:31:07,810 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:31:08,061 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:31:13,720 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:31:13,727 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:31:13,739 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:31:14,066 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:31:14,067 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:31:14,075 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:31:14,154 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:31:14,230 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:31:14,295 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:31:15,105 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
-2026-07-09 16:31:15,106 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add a single product to cart
-2026-07-09 16:31:17,151 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:31:17,421 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:31:23,832 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:31:23,839 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:31:23,849 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:31:24,834 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:31:24,836 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:31:24,846 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:31:24,980 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:31:25,109 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:31:25,200 INFO  stepDef.addToCartSteps - Adding Product To Cart : iPhone 12
-2026-07-09 16:31:25,554 INFO  stepDef.addToCartSteps - Removing Product : iPhone 12
-2026-07-09 16:31:25,557 INFO  stepDef.addToCartSteps - Verifying Cart Message : Add some products to bag
-2026-07-09 16:31:25,558 INFO  stepDef.addToCartSteps - Verifying Continue Shopping Button
-2026-07-09 16:31:25,559 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
-2026-07-09 16:31:27,610 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:31:27,898 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:31:38,579 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:31:38,585 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:31:38,595 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:31:38,850 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:31:38,851 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:31:38,858 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:31:38,938 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:31:39,007 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:31:39,065 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:31:39,893 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
-2026-07-09 16:31:39,969 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
-2026-07-09 16:31:40,096 INFO  stepDef.addToCartSteps - Verifying Multiple Products
-2026-07-09 16:31:40,107 INFO  stepDef.CheckoutSteps - Clicking Checkout button
-2026-07-09 16:31:40,188 INFO  stepDef.CheckoutSteps - Verifying Checkout page
-2026-07-09 16:31:40,817 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
-2026-07-09 16:31:40,841 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
-2026-07-09 16:31:41,410 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
-2026-07-09 16:31:41,500 INFO  stepDef.CheckoutSteps - Clicking Orders menu
-2026-07-09 16:31:41,580 INFO  stepDef.CheckoutSteps - Verifying placed order
-2026-07-09 16:31:41,582 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart and Checking Out
-2026-07-09 16:31:43,647 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:31:44,091 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:31:53,357 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:31:53,363 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:31:53,372 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:31:53,957 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:31:53,958 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:31:53,965 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:31:54,052 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:31:54,132 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:31:54,209 INFO  stepDef.NavbarSteps - Clicking on Log Out
-2026-07-09 16:31:54,570 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
-2026-07-09 16:31:56,620 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:34:22,626 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:34:31,160 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:34:31,365 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:34:31,674 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:34:31,680 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:34:31,706 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:34:31,822 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:34:31,921 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:34:35,001 INFO  stepDef.SignInSteps - Verifying successful login
-2026-07-09 16:34:35,012 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
-2026-07-09 16:34:37,470 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:34:37,753 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:34:43,014 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:34:43,029 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:34:43,361 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:34:43,363 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:34:43,378 INFO  stepDef.SignInSteps - Selecting username: locked_user
-2026-07-09 16:34:43,505 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:34:43,580 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:34:46,639 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
-2026-07-09 16:34:46,661 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
-2026-07-09 16:34:48,697 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:34:49,028 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:34:54,797 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:34:54,810 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:34:54,831 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:34:55,149 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:34:55,151 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:34:55,163 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:34:55,318 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:34:55,457 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:34:55,544 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
-2026-07-09 16:34:55,728 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
-2026-07-09 16:34:55,730 INFO  stepDef.NavbarSteps - Verifying Offers link
-2026-07-09 16:34:55,759 INFO  stepDef.NavbarSteps - Clicking on Offers link
-2026-07-09 16:34:55,930 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
-2026-07-09 16:34:55,993 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:34:55,996 INFO  stepDef.NavbarSteps - Verifying Orders link
-2026-07-09 16:34:56,053 INFO  stepDef.NavbarSteps - Clicking on Orders link
-2026-07-09 16:34:56,230 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
-2026-07-09 16:34:56,290 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:34:56,292 INFO  stepDef.NavbarSteps - Verifying Favourites link
-2026-07-09 16:34:56,322 INFO  stepDef.NavbarSteps - Clicking on Favourites link
-2026-07-09 16:34:56,927 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
-2026-07-09 16:34:56,949 INFO  stepDef.NavbarSteps - Returned back to Home Page
-2026-07-09 16:34:56,955 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
-2026-07-09 16:34:58,993 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:34:59,329 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:35:05,324 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:35:05,334 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:35:05,346 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:35:05,732 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:35:05,734 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:35:05,743 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:35:05,835 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:35:05,919 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:35:06,012 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:35:06,881 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
-2026-07-09 16:35:06,990 INFO  stepDef.NavbarSteps - Clicking on Search icon
-2026-07-09 16:35:07,889 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
-2026-07-09 16:35:07,902 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
-2026-07-09 16:35:08,228 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783595108060.png
-2026-07-09 16:35:10,283 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:35:10,635 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:35:17,053 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:35:17,073 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:35:17,088 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:35:17,454 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:35:17,456 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:35:17,467 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:35:17,566 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:35:17,655 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:35:17,746 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : iphone 12
-2026-07-09 16:35:17,748 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : Galaxy s10,One Plus 8T
-2026-07-09 16:35:18,189 INFO  stepDef.FavouritesSteps - Clicking Navbar Tab : Favourites
-2026-07-09 16:35:18,369 INFO  stepDef.FavouritesSteps - Verifying navigation to Favourites page
-2026-07-09 16:35:18,381 INFO  stepDef.FavouritesSteps - Removing Product from Favourites : iphone 12
-2026-07-09 16:35:18,383 INFO  stepDef.FavouritesSteps - Verifying product removed from favourites : iphone12
-2026-07-09 16:35:28,409 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding and Unadding products to favourites
-2026-07-09 16:35:30,484 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:35:30,846 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:35:41,713 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:35:41,720 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:35:41,732 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:35:41,996 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:35:41,998 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:35:42,005 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:35:42,075 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:35:42,141 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:35:42,207 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:35:42,460 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
-2026-07-09 16:35:42,461 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding to cart from favourites
-2026-07-09 16:35:44,511 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:35:44,865 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:35:52,750 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:35:52,758 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:35:52,772 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:35:53,745 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:35:53,747 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:35:53,764 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:35:53,897 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:35:54,036 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:35:54,139 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:35:56,382 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:35:56,383 INFO  stepDef.VendorSteps - Verifying Products For Vendor : Apple
-2026-07-09 16:35:56,384 INFO  stepDef.VendorSteps - Products displayed successfully for Vendor : Apple
-2026-07-09 16:35:56,385 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
-2026-07-09 16:35:58,424 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:35:58,742 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:36:05,860 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:36:05,865 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:36:05,878 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:36:06,539 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:36:06,541 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:36:06,548 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:36:06,627 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:36:06,700 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:36:06,766 INFO  stepDef.VendorSteps - Applying Vendor Filter : Apple
-2026-07-09 16:36:06,767 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:36:09,086 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:36:09,087 INFO  stepDef.VendorSteps - Removing Vendor Filter : Apple
-2026-07-09 16:36:09,088 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:36:11,149 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:36:11,150 INFO  stepDef.VendorSteps - Verifying All Products Are Displayed
-2026-07-09 16:36:11,151 INFO  stepDef.VendorSteps - All Products Displayed Successfully
-2026-07-09 16:36:11,152 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
-2026-07-09 16:36:13,195 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:36:15,128 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:36:21,420 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:36:21,431 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:36:21,452 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:36:21,805 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:36:21,808 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:36:21,826 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:36:21,995 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:36:22,126 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:36:22,237 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
-2026-07-09 16:36:24,551 INFO  stepDef.VendorSteps - Vendor Selected : Apple
-2026-07-09 16:36:24,552 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Google
-2026-07-09 16:36:26,621 INFO  stepDef.VendorSteps - Vendor Selected : Google
-2026-07-09 16:36:26,623 INFO  stepDef.VendorSteps - Verifying Products For Vendors : Apple and Google
-2026-07-09 16:36:26,623 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
-2026-07-09 16:36:26,624 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
-2026-07-09 16:36:28,666 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:36:30,630 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:36:36,530 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:36:36,538 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:36:36,552 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:36:36,821 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:36:36,823 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:36:36,832 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:36:36,931 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:36:37,029 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:36:37,108 INFO  stepDef.VendorSteps - Clicking Vendor Filter : OnePlus
-2026-07-09 16:36:39,393 INFO  stepDef.VendorSteps - Vendor Selected : OnePlus
-2026-07-09 16:36:39,395 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Samsung
-2026-07-09 16:36:41,516 INFO  stepDef.VendorSteps - Vendor Selected : Samsung
-2026-07-09 16:36:41,517 INFO  stepDef.VendorSteps - Verifying Products For Vendors : OnePlus and Samsung
-2026-07-09 16:36:41,518 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
-2026-07-09 16:36:41,518 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
-2026-07-09 16:36:43,554 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:36:43,876 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:36:51,541 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:36:51,549 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:36:51,563 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:36:51,868 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:36:51,870 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:36:51,878 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:36:51,967 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:36:52,060 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:36:52,135 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:36:52,445 INFO  stepDef.SortingSteps - User selects the Select from the dropdown
-2026-07-09 16:36:54,688 INFO  stepDef.SortingSteps - Products are sorted in Default order
-2026-07-09 16:36:56,929 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:36:58,972 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:01,065 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:37:07,726 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:37:07,735 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:37:07,752 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:37:08,039 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:37:08,041 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:37:08,053 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:37:08,175 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:37:08,285 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:37:08,372 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:37:08,662 INFO  stepDef.SortingSteps - User selects the Lowest to highest from the dropdown
-2026-07-09 16:37:10,936 INFO  stepDef.SortingSteps - Products are sorted in Ascending order
-2026-07-09 16:37:11,162 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:37:13,194 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:13,589 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:37:20,494 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:37:20,501 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:37:20,515 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:37:20,793 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:37:20,795 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:37:20,803 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:37:20,886 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:37:20,967 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:37:21,040 INFO  stepDef.SortingSteps - User is clicking on the sort filter
-2026-07-09 16:37:21,352 INFO  stepDef.SortingSteps - User selects the Highest to lowest from the dropdown
-2026-07-09 16:37:23,551 INFO  stepDef.SortingSteps - Products are sorted in Descending order
-2026-07-09 16:37:23,856 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
-2026-07-09 16:37:25,914 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:26,309 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:37:32,718 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:37:32,725 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:37:32,739 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:37:33,015 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:37:33,016 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:37:33,023 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:37:33,091 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:37:33,165 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:37:33,225 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:37:34,046 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
-2026-07-09 16:37:34,048 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add a single product to cart
-2026-07-09 16:37:36,106 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:36,608 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:37:42,650 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:37:42,657 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:37:42,668 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:37:42,953 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:37:42,955 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:37:42,962 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:37:43,063 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:37:43,165 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:37:43,248 INFO  stepDef.addToCartSteps - Adding Product To Cart : iPhone 12
-2026-07-09 16:37:43,565 INFO  stepDef.addToCartSteps - Removing Product : iPhone 12
-2026-07-09 16:37:43,567 INFO  stepDef.addToCartSteps - Verifying Cart Message : Add some products to bag
-2026-07-09 16:37:43,569 INFO  stepDef.addToCartSteps - Verifying Continue Shopping Button
-2026-07-09 16:37:43,570 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
-2026-07-09 16:37:45,617 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:46,149 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:37:52,885 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:37:52,892 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:37:52,901 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:37:53,184 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:37:53,185 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:37:53,192 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:37:53,265 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:37:53,343 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:37:53,408 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
-2026-07-09 16:37:53,703 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
-2026-07-09 16:37:53,790 INFO  stepDef.addToCartSteps - Adding Product : One Plus 8T
-2026-07-09 16:37:53,940 INFO  stepDef.addToCartSteps - Verifying Multiple Products
-2026-07-09 16:37:53,952 INFO  stepDef.CheckoutSteps - Clicking Checkout button
-2026-07-09 16:37:54,043 INFO  stepDef.CheckoutSteps - Verifying Checkout page
-2026-07-09 16:37:54,708 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
-2026-07-09 16:37:54,736 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
-2026-07-09 16:37:55,273 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
-2026-07-09 16:37:55,379 INFO  stepDef.CheckoutSteps - Clicking Orders menu
-2026-07-09 16:37:55,481 INFO  stepDef.CheckoutSteps - Verifying placed order
-2026-07-09 16:37:55,483 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart and Checking Out
-2026-07-09 16:37:57,535 INFO  Hooks.BStackDemoHooks - Closing browser
-2026-07-09 16:37:58,083 INFO  Hooks.BStackDemoHooks - Launching browser
-2026-07-09 16:38:05,463 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
-2026-07-09 16:38:05,476 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
-2026-07-09 16:38:05,490 INFO  stepDef.SignInSteps - Clicking on Sign In link
-2026-07-09 16:38:05,745 INFO  stepDef.SignInSteps - Sign In page loaded successfully
-2026-07-09 16:38:05,746 INFO  stepDef.SignInSteps - Verifying Sign In page URL
-2026-07-09 16:38:05,756 INFO  stepDef.SignInSteps - Selecting username: demouser
-2026-07-09 16:38:05,852 INFO  stepDef.SignInSteps - Selecting password
-2026-07-09 16:38:05,941 INFO  stepDef.SignInSteps - Clicking on Login button
-2026-07-09 16:38:06,017 INFO  stepDef.NavbarSteps - Clicking on Log Out
-2026-07-09 16:38:06,340 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
-2026-07-09 16:38:08,395 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:24:22,460 INFO  BStackDemoTCs.BSDTestNG - Extent Report initialized successfully
+2026-07-10 13:24:22,492 INFO  BStackDemoTCs.BSDTestNG - BrowserStack Demo Automation Started
+2026-07-10 13:24:26,096 INFO  BStackDemoTCs.BSDTestNG - Chrome browser launched successfully
+2026-07-10 13:24:32,060 INFO  BStackDemoTCs.BSDTestNG - Application launched successfully : https://bstackdemo.com/
+2026-07-10 13:24:32,132 INFO  BStackDemoTCs.BSDTestNG - All Page Object Model classes initialized successfully
+2026-07-10 13:24:33,253 INFO  BStackDemoTCs.BSDTestNG - Test Case Execution Started
+2026-07-10 13:24:33,504 INFO  BStackDemoTCs.BSDTestNG - User login process started
+2026-07-10 13:24:33,608 INFO  BStackDemoTCs.BSDTestNG - Clicked on Sign In link
+2026-07-10 13:24:34,582 INFO  BStackDemoTCs.BSDTestNG - Username selected successfully
+2026-07-10 13:24:34,726 INFO  BStackDemoTCs.BSDTestNG - Password selected successfully
+2026-07-10 13:24:34,816 INFO  BStackDemoTCs.BSDTestNG - Login button clicked
+2026-07-10 13:24:34,817 INFO  BStackDemoTCs.BSDTestNG - Adding products to Wishlist
+2026-07-10 13:24:35,161 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to wishlist
+2026-07-10 13:24:35,307 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to wishlist
+2026-07-10 13:24:35,426 INFO  BStackDemoTCs.BSDTestNG - OnePlus 8T added to wishlist
+2026-07-10 13:24:35,745 INFO  BStackDemoTCs.BSDTestNG - Favorites page screenshot captured successfully
+2026-07-10 13:24:35,746 INFO  BStackDemoTCs.BSDTestNG - Navigated to Favorites page
+2026-07-10 13:24:48,445 INFO  BStackDemoTCs.BSDTestNG - Browser closed successfully
+2026-07-10 13:24:49,028 INFO  BStackDemoTCs.BSDTestNG - Extent Report flushed successfully
+2026-07-10 13:28:24,333 INFO  BStackDemoTCs.BSDTestNG - Extent Report initialized successfully
+2026-07-10 13:28:24,371 INFO  BStackDemoTCs.BSDTestNG - BrowserStack Demo Automation Started
+2026-07-10 13:28:28,552 INFO  BStackDemoTCs.BSDTestNG - Chrome browser launched successfully
+2026-07-10 13:28:32,676 INFO  BStackDemoTCs.BSDTestNG - Application launched successfully : https://bstackdemo.com/
+2026-07-10 13:28:32,773 INFO  BStackDemoTCs.BSDTestNG - All Page Object Model classes initialized successfully
+2026-07-10 13:28:34,223 INFO  BStackDemoTCs.BSDTestNG - Test Case Execution Started
+2026-07-10 13:28:34,451 INFO  BStackDemoTCs.BSDTestNG - User login process started
+2026-07-10 13:28:34,607 INFO  BStackDemoTCs.BSDTestNG - Clicked on Sign In link
+2026-07-10 13:28:35,052 INFO  BStackDemoTCs.BSDTestNG - Username selected successfully
+2026-07-10 13:28:35,220 INFO  BStackDemoTCs.BSDTestNG - Password selected successfully
+2026-07-10 13:28:35,388 INFO  BStackDemoTCs.BSDTestNG - Login button clicked
+2026-07-10 13:28:35,389 INFO  BStackDemoTCs.BSDTestNG - Adding products to Wishlist
+2026-07-10 13:28:35,805 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to wishlist
+2026-07-10 13:28:36,028 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to wishlist
+2026-07-10 13:28:36,251 INFO  BStackDemoTCs.BSDTestNG - OnePlus 8T added to wishlist
+2026-07-10 13:28:36,691 INFO  BStackDemoTCs.BSDTestNG - Favorites page screenshot captured successfully
+2026-07-10 13:28:36,692 INFO  BStackDemoTCs.BSDTestNG - Navigated to Favorites page
+2026-07-10 13:28:36,830 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to cart
+2026-07-10 13:28:37,033 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to cart
+2026-07-10 13:28:37,145 INFO  BStackDemoTCs.BSDTestNG - Checkout button clicked
+2026-07-10 13:28:37,343 INFO  BStackDemoTCs.BSDTestNG - Checkout page loaded successfully
+2026-07-10 13:28:37,858 INFO  BStackDemoTCs.BSDTestNG - Checkout details entered successfully
+2026-07-10 13:28:38,578 INFO  BStackDemoTCs.BSDTestNG - Receipt Download successfully
+2026-07-10 13:28:38,717 INFO  BStackDemoTCs.BSDTestNG - Continue shopping button works successfully now we are on home page
+2026-07-10 13:28:38,912 INFO  BStackDemoTCs.BSDTestNG - Navigated to Orders page
+2026-07-10 13:28:39,039 INFO  BStackDemoTCs.BSDTestNG - Order History page screenshot captured successfully
+2026-07-10 13:28:41,203 INFO  BStackDemoTCs.BSDTestNG - Returned back to Home page
+2026-07-10 13:28:43,331 INFO  BStackDemoTCs.BSDTestNG - User logged out successfully
+2026-07-10 13:28:43,332 INFO  BStackDemoTCs.BSDTestNG - End To End Flow completed successfully
+2026-07-10 13:28:43,333 INFO  BStackDemoTCs.BSDTestNG - End To End Flow executed successfully
+2026-07-10 13:28:47,652 INFO  BStackDemoTCs.BSDTestNG - Browser closed successfully
+2026-07-10 13:28:48,209 INFO  BStackDemoTCs.BSDTestNG - Extent Report flushed successfully
+2026-07-10 13:30:45,971 INFO  BStackDemoTCs.BSDTestNG - Extent Report initialized successfully
+2026-07-10 13:30:46,003 INFO  BStackDemoTCs.BSDTestNG - BrowserStack Demo Automation Started
+2026-07-10 13:30:49,977 INFO  BStackDemoTCs.BSDTestNG - Chrome browser launched successfully
+2026-07-10 13:30:56,487 INFO  BStackDemoTCs.BSDTestNG - Application launched successfully : https://bstackdemo.com/
+2026-07-10 13:30:56,558 INFO  BStackDemoTCs.BSDTestNG - All Page Object Model classes initialized successfully
+2026-07-10 13:30:57,843 INFO  BStackDemoTCs.BSDTestNG - Test Case Execution Started
+2026-07-10 13:30:58,169 INFO  BStackDemoTCs.BSDTestNG - User login process started
+2026-07-10 13:30:58,390 INFO  BStackDemoTCs.BSDTestNG - Clicked on Sign In link
+2026-07-10 13:30:58,822 INFO  BStackDemoTCs.BSDTestNG - Username selected successfully
+2026-07-10 13:30:58,982 INFO  BStackDemoTCs.BSDTestNG - Password selected successfully
+2026-07-10 13:30:59,112 INFO  BStackDemoTCs.BSDTestNG - Login button clicked
+2026-07-10 13:30:59,113 INFO  BStackDemoTCs.BSDTestNG - Adding products to Wishlist
+2026-07-10 13:30:59,540 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to wishlist
+2026-07-10 13:30:59,785 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to wishlist
+2026-07-10 13:30:59,971 INFO  BStackDemoTCs.BSDTestNG - OnePlus 8T added to wishlist
+2026-07-10 13:31:00,420 INFO  BStackDemoTCs.BSDTestNG - Favorites page screenshot captured successfully
+2026-07-10 13:31:00,421 INFO  BStackDemoTCs.BSDTestNG - Navigated to Favorites page
+2026-07-10 13:31:00,594 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to cart
+2026-07-10 13:31:00,765 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to cart
+2026-07-10 13:31:00,904 INFO  BStackDemoTCs.BSDTestNG - Checkout button clicked
+2026-07-10 13:31:01,089 INFO  BStackDemoTCs.BSDTestNG - Checkout page loaded successfully
+2026-07-10 13:31:01,612 INFO  BStackDemoTCs.BSDTestNG - Checkout details entered successfully
+2026-07-10 13:31:02,414 INFO  BStackDemoTCs.BSDTestNG - Receipt Download successfully
+2026-07-10 13:31:02,649 INFO  BStackDemoTCs.BSDTestNG - Continue shopping button works successfully now we are on home page
+2026-07-10 13:31:02,944 INFO  BStackDemoTCs.BSDTestNG - Navigated to Orders page
+2026-07-10 13:31:03,135 INFO  BStackDemoTCs.BSDTestNG - Order History page screenshot captured successfully
+2026-07-10 13:31:05,320 INFO  BStackDemoTCs.BSDTestNG - Returned back to Home page
+2026-07-10 13:31:07,430 INFO  BStackDemoTCs.BSDTestNG - User logged out successfully
+2026-07-10 13:31:07,431 INFO  BStackDemoTCs.BSDTestNG - End To End Flow completed successfully
+2026-07-10 13:31:07,432 INFO  BStackDemoTCs.BSDTestNG - End To End Flow executed successfully
+2026-07-10 13:31:11,491 INFO  BStackDemoTCs.BSDTestNG - Browser closed successfully
+2026-07-10 13:31:12,461 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:31:17,771 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:31:17,790 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:31:18,101 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:31:18,108 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:31:18,141 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:31:18,244 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:31:18,343 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:31:21,438 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-10 13:31:21,457 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-10 13:31:24,441 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:31:24,844 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:31:30,742 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:31:30,750 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:31:31,037 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:31:31,039 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:31:31,047 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-10 13:31:31,166 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:31:31,283 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:31:34,374 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-10 13:31:34,402 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-10 13:31:36,449 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:31:36,849 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:31:42,613 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:31:42,621 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:31:42,635 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:31:42,913 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:31:42,915 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:31:42,923 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:31:43,013 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:31:43,107 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:31:43,187 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-10 13:31:43,358 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-10 13:31:43,361 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-10 13:31:43,386 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-10 13:31:43,513 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-10 13:31:43,548 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:31:43,550 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-10 13:31:43,600 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-10 13:31:43,816 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-10 13:31:43,852 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:31:43,855 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-10 13:31:43,997 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-10 13:31:44,203 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-10 13:31:44,232 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:31:44,234 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
+2026-07-10 13:31:46,404 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:31:46,792 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:31:53,514 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:31:53,521 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:31:53,537 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:31:53,875 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:31:53,877 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:31:53,886 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:31:53,985 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:31:54,081 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:31:54,157 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : iphone 12
+2026-07-10 13:31:54,160 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : Galaxy s10,One Plus 8T
+2026-07-10 13:31:54,509 INFO  stepDef.FavouritesSteps - Clicking Navbar Tab : Favourites
+2026-07-10 13:31:54,755 INFO  stepDef.FavouritesSteps - Verifying navigation to Favourites page
+2026-07-10 13:31:54,771 INFO  stepDef.FavouritesSteps - Removing Product from Favourites : iphone 12
+2026-07-10 13:31:54,773 INFO  stepDef.FavouritesSteps - Verifying product removed from favourites : iphone12
+2026-07-10 13:32:04,809 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding and Unadding products to favourites
+2026-07-10 13:32:06,875 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:32:07,571 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:32:14,921 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:32:14,932 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:32:14,950 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:32:15,376 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:32:15,381 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:32:15,391 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:32:15,510 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:32:15,616 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:32:15,699 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:32:15,998 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
+2026-07-10 13:32:16,000 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding to cart from favourites
+2026-07-10 13:32:18,068 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:32:18,451 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:32:24,209 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:32:24,216 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:32:24,229 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:32:24,534 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:32:24,536 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:32:24,545 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:32:24,658 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:32:24,763 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:32:24,852 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:32:27,114 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:32:27,116 INFO  stepDef.VendorSteps - Verifying Products For Vendor : Apple
+2026-07-10 13:32:27,117 INFO  stepDef.VendorSteps - Products displayed successfully for Vendor : Apple
+2026-07-10 13:32:27,117 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
+2026-07-10 13:32:29,163 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:32:29,557 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:32:36,839 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:32:36,846 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:32:36,858 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:32:37,140 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:32:37,142 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:32:37,150 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:32:37,245 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:32:37,339 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:32:37,405 INFO  stepDef.VendorSteps - Applying Vendor Filter : Apple
+2026-07-10 13:32:37,406 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:32:39,641 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:32:39,642 INFO  stepDef.VendorSteps - Removing Vendor Filter : Apple
+2026-07-10 13:32:39,643 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:32:41,704 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:32:41,705 INFO  stepDef.VendorSteps - Verifying All Products Are Displayed
+2026-07-10 13:32:41,706 INFO  stepDef.VendorSteps - All Products Displayed Successfully
+2026-07-10 13:32:41,707 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
+2026-07-10 13:32:43,739 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:32:44,136 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:32:51,592 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:32:51,600 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:32:51,613 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:32:51,893 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:32:51,896 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:32:51,904 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:32:51,997 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:32:52,089 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:32:52,152 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:32:54,366 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:32:54,368 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Google
+2026-07-10 13:32:56,483 INFO  stepDef.VendorSteps - Vendor Selected : Google
+2026-07-10 13:32:56,485 INFO  stepDef.VendorSteps - Verifying Products For Vendors : Apple and Google
+2026-07-10 13:32:56,485 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
+2026-07-10 13:32:56,486 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-10 13:32:58,524 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:32:58,980 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:33:05,310 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:33:05,320 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:33:05,335 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:33:05,691 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:33:05,693 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:33:05,701 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:33:05,795 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:33:05,890 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:33:05,963 INFO  stepDef.VendorSteps - Clicking Vendor Filter : OnePlus
+2026-07-10 13:33:08,183 INFO  stepDef.VendorSteps - Vendor Selected : OnePlus
+2026-07-10 13:33:08,184 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Samsung
+2026-07-10 13:33:10,232 INFO  stepDef.VendorSteps - Vendor Selected : Samsung
+2026-07-10 13:33:10,233 INFO  stepDef.VendorSteps - Verifying Products For Vendors : OnePlus and Samsung
+2026-07-10 13:33:10,234 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
+2026-07-10 13:33:10,234 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-10 13:33:12,281 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:33:12,609 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:33:23,236 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:33:23,243 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:33:23,258 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:33:23,554 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:33:23,557 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:33:23,564 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:33:23,643 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:33:23,721 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:33:23,793 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:33:24,071 INFO  stepDef.SortingSteps - User selects the Select from the dropdown
+2026-07-10 13:33:26,221 INFO  stepDef.SortingSteps - Products are sorted in Default order
+2026-07-10 13:33:28,749 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:33:30,813 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:33:31,287 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:33:37,299 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:33:37,313 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:33:37,327 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:33:37,698 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:33:37,700 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:33:37,708 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:33:37,804 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:33:37,898 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:33:37,970 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:33:38,229 INFO  stepDef.SortingSteps - User selects the Lowest to highest from the dropdown
+2026-07-10 13:33:40,489 INFO  stepDef.SortingSteps - Products are sorted in Ascending order
+2026-07-10 13:33:40,683 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:33:42,719 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:33:43,062 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:33:49,414 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:33:49,423 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:33:49,435 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:33:49,715 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:33:49,716 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:33:49,723 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:33:49,803 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:33:49,884 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:33:49,948 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:33:50,251 INFO  stepDef.SortingSteps - User selects the Highest to lowest from the dropdown
+2026-07-10 13:33:52,419 INFO  stepDef.SortingSteps - Products are sorted in Descending order
+2026-07-10 13:33:52,605 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:33:54,633 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:33:55,028 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:34:03,259 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:34:03,267 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:34:03,277 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:34:03,561 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:34:03,562 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:34:03,568 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:34:03,665 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:34:03,739 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:34:03,799 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:34:04,654 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
+2026-07-10 13:34:04,656 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add a single product to cart
+2026-07-10 13:34:06,708 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:34:07,075 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:34:15,380 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:34:15,388 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:34:15,401 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:34:16,059 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:34:16,060 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:34:16,070 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:34:16,168 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:34:16,258 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:34:16,329 INFO  stepDef.addToCartSteps - Adding Product To Cart : iPhone 12
+2026-07-10 13:34:16,716 INFO  stepDef.addToCartSteps - Removing Product : iPhone 12
+2026-07-10 13:34:16,717 INFO  stepDef.addToCartSteps - Verifying Cart Message : Add some products to bag
+2026-07-10 13:34:16,719 INFO  stepDef.addToCartSteps - Verifying Continue Shopping Button
+2026-07-10 13:34:16,720 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
+2026-07-10 13:34:18,778 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:34:19,139 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:34:30,632 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:34:30,639 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:34:30,651 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:34:30,938 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:34:30,939 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:34:30,947 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:34:31,023 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:34:31,102 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:34:31,179 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:34:31,472 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-10 13:34:31,604 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-10 13:34:31,608 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-10 13:34:31,741 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-10 13:34:32,748 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-10 13:34:32,777 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
+2026-07-10 13:34:35,417 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
+2026-07-10 13:34:35,543 INFO  stepDef.CheckoutSteps - Clicking Orders menu
+2026-07-10 13:34:35,705 INFO  stepDef.CheckoutSteps - Verifying placed order
+2026-07-10 13:34:35,708 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart and Checking Out
+2026-07-10 13:34:37,789 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:34:39,900 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:34:45,703 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:34:45,713 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:34:45,724 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:34:46,026 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:34:46,027 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:34:46,034 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:34:46,121 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:34:46,206 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:34:46,274 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-10 13:34:46,554 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
+2026-07-10 13:34:48,599 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:34:49,098 INFO  BStackDemoTCs.BSDTestNG - Extent Report flushed successfully
+2026-07-10 13:38:22,893 INFO  BStackDemoTCs.BSDTestNG - Extent Report initialized successfully
+2026-07-10 13:38:22,937 INFO  BStackDemoTCs.BSDTestNG - BrowserStack Demo Automation Started
+2026-07-10 13:38:27,671 INFO  BStackDemoTCs.BSDTestNG - Chrome browser launched successfully
+2026-07-10 13:38:31,482 INFO  BStackDemoTCs.BSDTestNG - Application launched successfully : https://bstackdemo.com/
+2026-07-10 13:38:31,584 INFO  BStackDemoTCs.BSDTestNG - All Page Object Model classes initialized successfully
+2026-07-10 13:38:32,876 INFO  BStackDemoTCs.BSDTestNG - Test Case Execution Started
+2026-07-10 13:38:33,058 INFO  BStackDemoTCs.BSDTestNG - User login process started
+2026-07-10 13:38:33,176 INFO  BStackDemoTCs.BSDTestNG - Clicked on Sign In link
+2026-07-10 13:38:33,536 INFO  BStackDemoTCs.BSDTestNG - Username selected successfully
+2026-07-10 13:38:33,691 INFO  BStackDemoTCs.BSDTestNG - Password selected successfully
+2026-07-10 13:38:33,819 INFO  BStackDemoTCs.BSDTestNG - Login button clicked
+2026-07-10 13:38:33,820 INFO  BStackDemoTCs.BSDTestNG - Adding products to Wishlist
+2026-07-10 13:38:34,179 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to wishlist
+2026-07-10 13:38:34,357 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to wishlist
+2026-07-10 13:38:34,547 INFO  BStackDemoTCs.BSDTestNG - OnePlus 8T added to wishlist
+2026-07-10 13:38:34,948 INFO  BStackDemoTCs.BSDTestNG - Favorites page screenshot captured successfully
+2026-07-10 13:38:34,949 INFO  BStackDemoTCs.BSDTestNG - Navigated to Favorites page
+2026-07-10 13:38:35,112 INFO  BStackDemoTCs.BSDTestNG - iPhone 12 added to cart
+2026-07-10 13:38:35,283 INFO  BStackDemoTCs.BSDTestNG - Galaxy S10 added to cart
+2026-07-10 13:38:35,383 INFO  BStackDemoTCs.BSDTestNG - Checkout button clicked
+2026-07-10 13:38:35,578 INFO  BStackDemoTCs.BSDTestNG - Checkout page loaded successfully
+2026-07-10 13:38:36,242 INFO  BStackDemoTCs.BSDTestNG - Checkout details entered successfully
+2026-07-10 13:38:36,945 INFO  BStackDemoTCs.BSDTestNG - Receipt Download successfully
+2026-07-10 13:38:37,101 INFO  BStackDemoTCs.BSDTestNG - Continue shopping button works successfully now we are on home page
+2026-07-10 13:38:37,321 INFO  BStackDemoTCs.BSDTestNG - Navigated to Orders page
+2026-07-10 13:38:37,445 INFO  BStackDemoTCs.BSDTestNG - Order History page screenshot captured successfully
+2026-07-10 13:38:39,629 INFO  BStackDemoTCs.BSDTestNG - Returned back to Home page
+2026-07-10 13:38:41,760 INFO  BStackDemoTCs.BSDTestNG - User logged out successfully
+2026-07-10 13:38:41,761 INFO  BStackDemoTCs.BSDTestNG - End To End Flow completed successfully
+2026-07-10 13:38:41,762 INFO  BStackDemoTCs.BSDTestNG - End To End Flow executed successfully
+2026-07-10 13:38:44,460 INFO  BStackDemoTCs.BSDTestNG - Browser closed successfully
+2026-07-10 13:38:45,748 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:38:51,429 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:38:51,450 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:38:51,734 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:38:51,743 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:38:51,775 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:38:51,923 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:38:52,065 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:38:55,177 INFO  stepDef.SignInSteps - Verifying successful login
+2026-07-10 13:38:55,187 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-10 13:38:57,740 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:38:58,111 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:39:03,911 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:39:03,928 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:39:04,240 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:39:04,242 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:39:04,255 INFO  stepDef.SignInSteps - Selecting username: locked_user
+2026-07-10 13:39:04,406 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:39:04,548 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:39:07,653 ERROR stepDef.SignInSteps - Verifying login failure due to locked account
+2026-07-10 13:39:07,686 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Navigating to SignIn Page and Signing In
+2026-07-10 13:39:09,742 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:39:10,094 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:39:16,845 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:39:16,853 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:39:16,869 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:39:17,146 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:39:17,148 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:39:17,157 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:39:17,247 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:39:17,344 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:39:17,428 INFO  stepDef.NavbarSteps - Verifying navbar logo visibility
+2026-07-10 13:39:17,599 INFO  stepDef.NavbarSteps - Navbar logo is displayed successfully
+2026-07-10 13:39:17,601 INFO  stepDef.NavbarSteps - Verifying Offers link
+2026-07-10 13:39:17,624 INFO  stepDef.NavbarSteps - Clicking on Offers link
+2026-07-10 13:39:17,724 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/offers
+2026-07-10 13:39:17,750 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:39:17,752 INFO  stepDef.NavbarSteps - Verifying Orders link
+2026-07-10 13:39:17,786 INFO  stepDef.NavbarSteps - Clicking on Orders link
+2026-07-10 13:39:17,974 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/orders
+2026-07-10 13:39:18,022 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:39:18,027 INFO  stepDef.NavbarSteps - Verifying Favourites link
+2026-07-10 13:39:18,162 INFO  stepDef.NavbarSteps - Clicking on Favourites link
+2026-07-10 13:39:18,354 INFO  stepDef.NavbarSteps - Current URL: https://bstackdemo.com/favourites
+2026-07-10 13:39:18,389 INFO  stepDef.NavbarSteps - Returned back to Home Page
+2026-07-10 13:39:18,391 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Verify Navbar Links
+2026-07-10 13:39:20,509 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:39:20,878 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:39:26,753 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:39:26,763 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:39:26,784 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:39:27,078 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:39:27,080 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:39:27,090 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:39:27,216 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:39:27,320 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:39:27,425 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:39:27,769 INFO  stepDef.NavbarSteps - Entering keyword in search bar: iphone
+2026-07-10 13:39:27,946 INFO  stepDef.NavbarSteps - Clicking on Search icon
+2026-07-10 13:39:28,471 ERROR stepDef.NavbarSteps - BUG: Search functionality does not filter products based on keyword entered
+2026-07-10 13:39:28,495 ERROR Hooks.BStackDemoHooks - Scenario FAILED: Verify search fails for any keyword
+2026-07-10 13:39:28,853 ERROR Hooks.BStackDemoHooks - Screenshot saved at: ./screenshot/Verify_search_fails_for_any_keyword_1783670968658.png
+2026-07-10 13:39:30,910 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:39:32,814 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:39:42,344 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:39:42,353 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:39:42,366 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:39:42,601 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:39:42,602 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:39:42,613 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:39:42,710 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:39:42,804 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:39:42,881 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : iphone 12
+2026-07-10 13:39:42,884 INFO  stepDef.FavouritesSteps - Adding Product to Favourites : Galaxy s10,One Plus 8T
+2026-07-10 13:39:43,295 INFO  stepDef.FavouritesSteps - Clicking Navbar Tab : Favourites
+2026-07-10 13:39:43,459 INFO  stepDef.FavouritesSteps - Verifying navigation to Favourites page
+2026-07-10 13:39:43,472 INFO  stepDef.FavouritesSteps - Removing Product from Favourites : iphone 12
+2026-07-10 13:39:43,474 INFO  stepDef.FavouritesSteps - Verifying product removed from favourites : iphone12
+2026-07-10 13:39:53,536 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding and Unadding products to favourites
+2026-07-10 13:39:55,613 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:39:56,199 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:40:02,848 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:40:02,858 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:40:02,872 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:40:03,178 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:40:03,180 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:40:03,193 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:40:03,337 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:40:03,475 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:40:03,604 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:40:04,174 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
+2026-07-10 13:40:04,191 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Adding to cart from favourites
+2026-07-10 13:40:06,312 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:40:06,696 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:40:14,304 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:40:14,313 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:40:14,326 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:40:14,652 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:40:14,653 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:40:14,663 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:40:14,772 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:40:14,896 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:40:14,996 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:40:17,239 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:40:17,239 INFO  stepDef.VendorSteps - Verifying Products For Vendor : Apple
+2026-07-10 13:40:17,241 INFO  stepDef.VendorSteps - Products displayed successfully for Vendor : Apple
+2026-07-10 13:40:17,242 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By a single Vendor
+2026-07-10 13:40:19,287 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:40:19,682 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:40:26,982 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:40:26,991 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:40:27,006 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:40:27,300 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:40:27,302 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:40:27,310 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:40:27,406 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:40:27,512 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:40:27,585 INFO  stepDef.VendorSteps - Applying Vendor Filter : Apple
+2026-07-10 13:40:27,586 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:40:29,823 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:40:29,824 INFO  stepDef.VendorSteps - Removing Vendor Filter : Apple
+2026-07-10 13:40:29,825 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:40:31,887 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:40:31,888 INFO  stepDef.VendorSteps - Verifying All Products Are Displayed
+2026-07-10 13:40:31,889 INFO  stepDef.VendorSteps - All Products Displayed Successfully
+2026-07-10 13:40:31,889 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Clear Applied Filters
+2026-07-10 13:40:33,926 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:40:34,302 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:40:42,258 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:40:42,267 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:40:42,280 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:40:42,580 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:40:42,582 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:40:42,592 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:40:42,724 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:40:42,837 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:40:42,922 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Apple
+2026-07-10 13:40:45,192 INFO  stepDef.VendorSteps - Vendor Selected : Apple
+2026-07-10 13:40:45,193 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Google
+2026-07-10 13:40:47,279 INFO  stepDef.VendorSteps - Vendor Selected : Google
+2026-07-10 13:40:47,281 INFO  stepDef.VendorSteps - Verifying Products For Vendors : Apple and Google
+2026-07-10 13:40:47,281 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
+2026-07-10 13:40:47,282 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-10 13:40:49,320 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:40:51,386 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:41:00,004 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:41:00,011 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:41:00,030 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:41:01,195 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:41:01,197 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:41:01,214 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:41:01,429 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:41:01,601 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:41:01,756 INFO  stepDef.VendorSteps - Clicking Vendor Filter : OnePlus
+2026-07-10 13:41:04,094 INFO  stepDef.VendorSteps - Vendor Selected : OnePlus
+2026-07-10 13:41:04,095 INFO  stepDef.VendorSteps - Clicking Vendor Filter : Samsung
+2026-07-10 13:41:06,155 INFO  stepDef.VendorSteps - Vendor Selected : Samsung
+2026-07-10 13:41:06,156 INFO  stepDef.VendorSteps - Verifying Products For Vendors : OnePlus and Samsung
+2026-07-10 13:41:06,156 INFO  stepDef.VendorSteps - Products displayed successfully for Vendors
+2026-07-10 13:41:06,157 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Filter Products By Multiple Vendors
+2026-07-10 13:41:08,204 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:41:08,872 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:41:17,592 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:41:17,602 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:41:17,614 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:41:17,894 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:41:17,895 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:41:17,906 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:41:17,982 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:41:18,082 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:41:18,142 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:41:18,388 INFO  stepDef.SortingSteps - User selects the Select from the dropdown
+2026-07-10 13:41:20,535 INFO  stepDef.SortingSteps - Products are sorted in Default order
+2026-07-10 13:41:22,776 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:41:24,835 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:41:25,369 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:41:35,793 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:41:35,799 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:41:35,813 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:41:37,234 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:41:37,236 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:41:37,247 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:41:37,395 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:41:37,497 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:41:37,600 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:41:37,944 INFO  stepDef.SortingSteps - User selects the Lowest to highest from the dropdown
+2026-07-10 13:41:40,125 INFO  stepDef.SortingSteps - Products are sorted in Ascending order
+2026-07-10 13:41:40,307 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:41:42,348 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:41:44,401 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:41:52,154 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:41:52,163 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:41:52,177 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:41:52,428 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:41:52,429 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:41:52,437 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:41:52,525 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:41:52,626 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:41:52,699 INFO  stepDef.SortingSteps - User is clicking on the sort filter
+2026-07-10 13:41:52,961 INFO  stepDef.SortingSteps - User selects the Highest to lowest from the dropdown
+2026-07-10 13:41:55,152 INFO  stepDef.SortingSteps - Products are sorted in Descending order
+2026-07-10 13:41:55,369 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Sorting Products
+2026-07-10 13:41:57,403 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:41:57,730 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:42:04,023 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:42:04,030 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:42:04,043 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:42:04,325 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:42:04,327 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:42:04,335 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:42:04,429 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:42:04,527 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:42:04,607 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:42:05,466 INFO  stepDef.addToCartSteps - Verifying Product : iPhone 12
+2026-07-10 13:42:05,467 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add a single product to cart
+2026-07-10 13:42:07,527 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:42:07,825 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:42:14,048 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:42:14,055 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:42:14,069 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:42:14,362 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:42:14,363 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:42:14,372 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:42:14,472 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:42:14,566 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:42:14,639 INFO  stepDef.addToCartSteps - Adding Product To Cart : iPhone 12
+2026-07-10 13:42:15,527 INFO  stepDef.addToCartSteps - Removing Product : iPhone 12
+2026-07-10 13:42:15,529 INFO  stepDef.addToCartSteps - Verifying Cart Message : Add some products to bag
+2026-07-10 13:42:15,533 INFO  stepDef.addToCartSteps - Verifying Continue Shopping Button
+2026-07-10 13:42:15,534 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Remove a product from the cart
+2026-07-10 13:42:17,612 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:42:17,942 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:42:26,609 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:42:26,616 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:42:26,628 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:42:26,854 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:42:26,855 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:42:26,862 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:42:26,951 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:42:27,022 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:42:27,080 INFO  stepDef.addToCartSteps - Adding Product : iPhone 12
+2026-07-10 13:42:27,892 INFO  stepDef.addToCartSteps - Adding Product : Galaxy S10
+2026-07-10 13:42:28,021 INFO  stepDef.addToCartSteps - Verifying Multiple Products
+2026-07-10 13:42:28,023 INFO  stepDef.CheckoutSteps - Clicking Checkout button
+2026-07-10 13:42:28,152 INFO  stepDef.CheckoutSteps - Verifying Checkout page
+2026-07-10 13:42:29,264 INFO  stepDef.CheckoutSteps - Verifying Order Confirmation page
+2026-07-10 13:42:29,310 INFO  stepDef.CheckoutSteps - Clicking Download Receipt link
+2026-07-10 13:42:31,133 INFO  stepDef.CheckoutSteps - Clicking Continue Shopping button
+2026-07-10 13:42:31,284 INFO  stepDef.CheckoutSteps - Clicking Orders menu
+2026-07-10 13:42:31,439 INFO  stepDef.CheckoutSteps - Verifying placed order
+2026-07-10 13:42:31,442 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Add multiple products to cart and Checking Out
+2026-07-10 13:42:33,524 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:42:34,187 INFO  Hooks.BStackDemoHooks - Launching browser
+2026-07-10 13:42:43,044 INFO  Hooks.BStackDemoHooks - Navigated to BSTACKDEMO application
+2026-07-10 13:42:43,052 INFO  stepDef.SignInSteps - Navigating to BStackDemo Home Page
+2026-07-10 13:42:43,064 INFO  stepDef.SignInSteps - Clicking on Sign In link
+2026-07-10 13:42:43,457 INFO  stepDef.SignInSteps - Sign In page loaded successfully
+2026-07-10 13:42:43,458 INFO  stepDef.SignInSteps - Verifying Sign In page URL
+2026-07-10 13:42:43,467 INFO  stepDef.SignInSteps - Selecting username: demouser
+2026-07-10 13:42:43,572 INFO  stepDef.SignInSteps - Selecting password
+2026-07-10 13:42:43,678 INFO  stepDef.SignInSteps - Clicking on Login button
+2026-07-10 13:42:43,788 INFO  stepDef.NavbarSteps - Clicking on Log Out
+2026-07-10 13:42:44,064 INFO  Hooks.BStackDemoHooks - Scenario PASSED: Log Out
+2026-07-10 13:42:46,138 INFO  Hooks.BStackDemoHooks - Closing browser
+2026-07-10 13:42:46,653 INFO  BStackDemoTCs.BSDTestNG - Extent Report flushed successfully

@@ -42,6 +42,10 @@ public class baseClass {
     }
 
     public static String screenShot() throws IOException {
+        File folder = new File("./screenShots");
+        if (!folder.exists()) {
+            folder.mkdirs();
+        }
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String path = "./screenShots/" + "screenshot-" + System.currentTimeMillis() + ".png";
         File dest = new File(path);

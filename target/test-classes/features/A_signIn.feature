@@ -1,7 +1,7 @@
 Feature: BrowserStackDemo Automation Testing
 
 Background: Given User is on BStackDemo HomePage
-
+@Login
 Scenario Outline: Navigating to SignIn Page and Signing In
 When User clicks on "Sign In" link
 Then User is redirected to Sign In Page

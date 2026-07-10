@@ -3,7 +3,8 @@
 	<test name="Capstone Test">
 		
         <classes>
-			<class name="Runner.Runner"/>                
+		<class name="BStackDemoTCs.BSDTestNG"/>
+		<class name="Runner.Runner"/>
         </classes>
     </test>
 </suite>
